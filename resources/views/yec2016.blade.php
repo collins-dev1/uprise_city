@@ -1499,11 +1499,11 @@
                                         <div class="ekit-wid-con">
                                             <div
                                                 class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <h1 class="ekit-heading--title elementskit-section-title ">UPRISE CITY
+                                                <h3 class="ekit-heading--title elementskit-section-title ">UPRISE CITY
                                                     <br>YOUNG ENTREPRENEURS
                                                     <br>
                                                     CONFERENCE 2016 PHOTOS
-                                                </h1>
+                                                </h3>
                                             </div>
                                         </div>
                                     </div>
