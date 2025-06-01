@@ -1499,7 +1499,7 @@
                                         <div class="ekit-wid-con">
                                             <div
                                                 class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <h3 class="ekit-heading--title elementskit-section-title" style="font-size: 15px;">UPRISE CITY
+                                                <h3 class="ekit-heading--title elementskit-section-title">UPRISE CITY
                                                     <br>YOUNG ENTREPRENEURS
                                                     <br>
                                                     CONFERENCE 2017 PHOTOS
@@ -1519,7 +1519,7 @@
                                 <style>
                                     @media (max-width: 768px) {
                                         .ekit-heading--title {
-                                            font-size: 3rem !important;
+                                            font-size: 1.5rem !important;
                                         }
 
                                         .ekit-heading {

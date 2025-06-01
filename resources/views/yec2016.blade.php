@@ -1519,7 +1519,7 @@
                                 <style>
                                     @media (max-width: 768px) {
                                         .ekit-heading--title {
-                                            font-size: 3rem !important;
+                                            font-size: 1.5rem !important;
                                         }
 
                                         .ekit-heading {
