@@ -7,7 +7,7 @@
 <body>
     <!-- Static Logo -->
     <div style="text-align:center; margin-bottom: 20px;">
-        <img src="{{ $message->embed(public_path('uprise_city/upriseimg/uprisecitylogo.png')) }}"
+        <img src="{{asset('uprise_city/upriseimg/uprisecitylogo.png')}}"
              alt="Uprise City Logo" style="max-width: 200px; ">
     </div>
 

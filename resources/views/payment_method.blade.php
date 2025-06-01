@@ -209,6 +209,10 @@
 
 <body>
     <div class="container">
+        <div>
+            <a href="{{url('/')}}">
+            <img src="{{asset('uprise_city/upriseimg/uprisecitylogo.png')}}" alt=""></a>
+        </div>
         <h1>Payment Information</h1>
 
         <div class="bank-details">
