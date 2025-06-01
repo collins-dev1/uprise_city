@@ -209,9 +209,9 @@
 
 <body>
     <div class="container">
-        <div>
+        <div style="display: flex; justify-content:center; align-items:center;">
             <a href="{{url('/')}}">
-            <img src="{{asset('uprise_city/upriseimg/uprisecitylogo.png')}}" alt="" style="max-width: 200px;"></a>
+            <img src="{{asset('uprise_city/upriseimg/uprisecitylogo.png')}}" alt="" style="max-width: 150px;"></a>
         </div>
         <h1>Payment Information</h1>
 
