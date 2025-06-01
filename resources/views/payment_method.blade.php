@@ -211,7 +211,7 @@
     <div class="container">
         <div>
             <a href="{{url('/')}}">
-            <img src="{{asset('uprise_city/upriseimg/uprisecitylogo.png')}}" alt=""></a>
+            <img src="{{asset('uprise_city/upriseimg/uprisecitylogo.png')}}" alt="" style="max-width: 200px;"></a>
         </div>
         <h1>Payment Information</h1>
 
