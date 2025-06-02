@@ -44,9 +44,7 @@
                     @if ($member->qrcode == null)
                     <td class="fw-bold">Not Paid</td>
                     @else
-                    <td>
-                        <td class="fw-bold">Paid</td>
-                    </td>
+                    <td class="fw-bold">Paid</td>
                     @endif
                     <td>
                         <div class="manage-buttons">
