@@ -1177,6 +1177,8 @@
                                                             href="{{ route('tickets') }}">Ticket</a></li>
                                                     <li class="menu-item"><a
                                                             href="{{ route('sponsors') }}">Sponsors</a></li>
+                                                            <li class="menu-item"><a
+                                                            href="{{ route('payment_method') }}">Already Registered and want to make payment</a></li>
                                                 </ul>
                                             </li>
 
