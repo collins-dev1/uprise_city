@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use LaravelQRCode\Facades\QRCode;
 use RealRashid\SweetAlert\Facades\Alert;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Log;
 
 class AdminController extends Controller
 {
@@ -151,33 +155,47 @@ class AdminController extends Controller
         return view('admin.add_photogallery');
     }
 
-    public function add_photo(Request $request){
-        $gallery=$request->validate([
-            'photo' => 'required|file',
-        ]);
-         if (isset($gallery['photo']) && $gallery['photo'] instanceof \Illuminate\Http\UploadedFile) {
-            // Validate that it's an image
-            if (!$gallery['photo']->isValid() || !in_array($gallery['photo']->getMimeType(), ['image/jpeg', 'image/png', 'image/jpg', 'image/webp'])) {
-                Alert::html(
-    '<h3 style="color:black;">Error Occurred!</h3>',
-    '<p style="color:black;">Something went wrong with your Image. Please check your image.</p>',
-    'error'
-)->persistent(true);
-                return redirect()->back();
-            }
+public function add_photo(Request $request)
+{
+    $request->validate([
+        'photo' => 'required|image|mimes:jpeg,png,jpg,webp|max:5120', // 5MB max
+    ]);
 
-            // Upload file to public/banner_settings
-            $path = $gallery['photo']->store('gallery_pictures', 'public');
-            $gallery['photo'] = asset("storage/{$path}"); // Store the URL instead of file object
+    try {
+        // Ensure directory exists
+        $storagePath = storage_path('app/public/gallery_pictures');
+        if (!File::exists($storagePath)) {
+            File::makeDirectory($storagePath, 0755, true);
         }
-        PhotoGallery::create($gallery);
-        Alert::html(
-            '<h3 style="color:black;">Photo Sent Successfully!</h3>',
-            '<p style="color:black;">You have successfully sent photo to your photo gallery.</p>',
-            'success'
-        )->persistent();
-        return redirect()->back();
+
+        // Generate safe filename
+        $extension = $request->file('photo')->extension();
+        $filename = 'img_'.time().'_'.Str::random(8).'.'.$extension;
+
+        // Store file
+        $path = $request->file('photo')->storeAs(
+            'gallery_pictures',
+            $filename,
+            'public'
+        );
+
+        // Save to database
+        PhotoGallery::create([
+            'photo' => Storage::url($path) // Generates proper URL
+        ]);
+
+        Alert::success('Success!', 'Photo uploaded successfully');
+        return back();
+
+    } catch (\Exception $e) {
+        \Log::error('Upload Failed: '.$e->getMessage(), [
+            'exception' => $e
+        ]);
+
+        Alert::error('Error', 'Upload failed: '.$e->getMessage());
+        return back();
     }
+}
 
     public function manage_photo(){
         $gallerys = PhotoGallery::all();

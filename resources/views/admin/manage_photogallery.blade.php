@@ -22,7 +22,7 @@
                 <tr>
                     <td>{{ $rowNumber++ }}</td>
                     <td>
-                        <img src="{{ $gallery->photo }}" alt="" width="50px" height="50px">
+                        <img src="/storage/gallery_pictures/{{ basename($gallery->photo) }}" alt="" width="50px" height="50px">
                     </td>
                     <td>
                         <div class="manage-buttons">

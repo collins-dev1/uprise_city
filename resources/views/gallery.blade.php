@@ -1619,7 +1619,7 @@
                                                         class="eael-magnific-link eael-magnific-link-clone active media-content-wrap active"
                                                         data-elementor-open-lightbox="yes" title="">
                                                         <div class="gallery-item-thumbnail-wrap"><img decoding="async"
-                                                                src="{{ $gallery->photo }}"
+                                                                src="/storage/gallery_pictures/{{ basename($gallery->photo) }}"
                                                                 data-lazy-src="{{ $gallery->photo }}" alt=""
                                                                 class="gallery-item-thumbnail"></div>
                                                         <div

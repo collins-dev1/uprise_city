@@ -45,7 +45,7 @@
                     <td class="fw-bold">Not Paid</td>
                     @else
                     <td>
-                        <img src="{{url('invites/'.$member->qrcode)}}" alt="" width="100px" height="100px">
+                        <td class="fw-bold">Paid</td>
                     </td>
                     @endif
                     <td>
