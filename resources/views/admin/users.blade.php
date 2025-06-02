@@ -19,8 +19,8 @@
                   <th style="color: #FEF9F2">Job Title</th>
                   <th style="color: #FEF9F2">Organization/Company Name</th>
                   <th style="color: #FEF9F2">Subscription Ticket</th>
+                  <th style="color: #FEF9F2">Approval Status</th>
                   <th style="color: #FEF9F2">Payment Status</th>
-                  <th style="color: #FEF9F2">User Scan Code</th>
                   <th style="color: #FEF9F2">Actions</th>
                 </tr>
             </thead>
