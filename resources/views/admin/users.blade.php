@@ -39,7 +39,7 @@
                     @if ($member->payment_status == 'pending')
                     <td class="fw-bold text-danger">Pending...</td>
                     @elseif ($member->payment_status == 'Approved')
-                    <td class="fw-bold text-success">Paid/Approved</td>
+                    <td class="fw-bold text-success">Approved</td>
                     @endif
                     @if ($member->qrcode == null)
                     <td class="fw-bold">Not Paid</td>
