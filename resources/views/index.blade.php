@@ -1758,7 +1758,7 @@
                                         <p><span style="font-weight: 400;">Uprise City is an economic and social
                                                 empowerment
                                                 initiative based in the
-                                                Eastern part ofNigeria and dulyregistered with CAC.
+                                                Eastern part of Nigeria and duly registered with CAC.
                                             </span>
                                             <br>
                                             <span style="font-weight: 400;">We provide personal, career and business
