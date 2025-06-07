@@ -2038,6 +2038,13 @@
                                             srcset="{{ asset('uprise_city/eventspeakerimg/general1.jpg') }}"
                                             sizes="(max-width: 1024px) 100vw, 1024px" />
                                     </div>
+                                    <div class="elementor-widget-container mt-5">
+                                        <img decoding="async" width="1024" height="682"
+                                            src="{{ asset('uprise_city/eventspeakerimg/vol.jpg') }}"
+                                            class="attachment-full size-full wp-image-742" alt=""
+                                            srcset="{{ asset('uprise_city/eventspeakerimg/vol.jpg') }}"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" />
+                                    </div>
                                 </div>
                                 <div class="elementor-element elementor-element-95aba6c elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-spacer"
                                     data-id="95aba6c" data-element_type="widget"

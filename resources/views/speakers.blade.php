@@ -2186,31 +2186,48 @@
                                                 <div class="elementor-element elementor-element-ec12822 elementor-widget elementor-widget-text-editor"
                                                     data-id="ec12822" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
-                                                    {{-- <div class="elementor-widget-container">
-                                                        <p>Dr. Charles Apoki is a 1984 graduate of the prestigious
-                                                            College
-                                                            of Medicine, University of Ibadan, Nigeria, and a Master's
-                                                            Degree Holder in Public Administration. </p>
-                                                        <p>He is an ordained Clergy Man, an international Conference
-                                                            Speaker
-                                                            in several denominations, and a resource person to different
-                                                            companies and other organizations. </p>
-                                                        <p>He has travelled to several nations in Africa and Europe in
-                                                            the
-                                                            course of his ministerial duties. </p>
-                                                        <p>He organizes 'Word and Wisdom Conference' - a capacity
-                                                            building
-                                                            conference that attracts several pastors, Church Leaders,
-                                                            and
-                                                            business people from different denominations. He is also the
-                                                            proprietor of Petra Christian Academy, a Nursery, Primary
-                                                            and
-                                                            Secondary School in Nigeria. He has been married for several
-                                                            years to his childhood friend, Felicia and they have 4
-                                                            children.
-                                                            He is also an experienced marriage counsellor.
+                                                    <div class="elementor-element elementor-element-ec12822 elementor-widget elementor-widget-text-editor"
+                                                    data-id="ec12822" data-element_type="widget"
+                                                    data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>Venerable Michael Okoh is a seasoned and passionate minister
+                                                            of the gospel from Afikpo, Ebonyi State, Nigeria. He is a
+                                                            priest in the Diocese on the Niger, Church of Nigeria
+                                                            (Anglican Communion), and currently serves as the Vicar of
+                                                            the Church of the Transfiguration of Our Lord (COTOL),
+                                                            Akpaka GRA Phase 2, Onitsha.
                                                         </p>
-                                                    </div> --}}
+                                                        <p>He was ordained a Deacon in 2010 and a Priest in 2011. In
+                                                            2018, he was collated as a Canon, and in 2021, preferred a
+                                                            Venerable at All Saints’ Cathedral, Onitsha.
+                                                        </p>
+                                                        <p>Venerable Okoh is widely recognized for his impactful radio
+                                                            and tele-evangelism ministry. Within the Diocese, he holds
+                                                            several key leadership roles, including:
+                                                        </p>
+                                                        <p>Chaplain, Young Wives Fellowship
+                                                            Director, Foreign Mission Board
+                                                            Coordinator, Diocese on the Niger Prayer City
+
+                                                        </p>
+                                                        <h6>Academic Profile</h6>
+                                                        <p>He is well-grounded academically, holding:</p>
+                                                        <ul>
+                                                            <li> Diploma in Chemical Engineering</li>
+                                                            <li>Diploma in Theology</li>
+                                                            <li>B.A. (Hons) in Religion and Philosophy</li>
+                                                            <li>B.A. (Hons) in Theology</li>
+                                                            <li>Postgraduate Diploma in Education</li>
+                                                            <li>M.A. in New Testament Studies</li>
+                                                            <li>Ph.D. in view</li>
+                                                        </ul>
+                                                        <h6>Family Life</h6>
+                                                        <p>He is married to Mrs. Blessing Okoh, a dedicated
+                                                            educationist. Their marriage is richly blessed with four
+                                                            sons, and together, they reflect the grace and glory of
+                                                            God in family life.</p>
+                                                    </div>
+                                                </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2257,40 +2274,29 @@
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
                                                         <h6>Akpoveta Valentine Work</h6>
-                                                        <ul>
-                                                            <li>2020 - now Brand Marketing Manager @ 3DMatic Atelier
-                                                            </li>
-                                                            <li>2018 - 2020 Manager @ Men Of Purpose Leadership
-                                                                Initiative</li>
-                                                            <li>2016 - 2018 Design Lead @ State Knights</li>
-                                                        </ul>
-                                                        <h6>Akpoveta Valentine Education</h6>
-                                                        <p>University of Lagos</p>
+                                                        <p>Akpoveta Valentine ‘t is a renowned author, life coach, and
+                                                            serial entrepreneur with over two decades of experience
+                                                            empowering individuals and organizations to realize and
+                                                            unlock their full potential.
+                                                        </p>
 
-                                                        <p>Bachelor of Science (Computer Engineering)
+
+                                                        <p>CEO of Montage Hub Africa and Senior Partner, On This Rock
+                                                            Marketing LLC, USA, Valentine combines a unique blend of
+                                                            heightened awareness, communication, and actionable
+                                                            strategies, to help people transform their lives and drive
+                                                            transformative success, through understanding key principles
+                                                            of interpersonal dynamics.
                                                         </p>
-                                                        <p>2011 - 2016</p>
-                                                        <p>Federal University of Technology Akure
-                                                            Bachelor's of Technology (Electrical and Electronics
-                                                            Engineering)
+
+                                                        <p>As founder of multiple successful international ventures,
+                                                            Valentine brings a wealth of practical insights, combining
+                                                            unparalleled real-world expertise with a passion for
+                                                            fostering personal and professional growth and his books and
+                                                            dynamic coaching programs have inspired individuals to lead
+                                                            with purpose, communicate effectively, and create
+                                                            meaningful impact.
                                                         </p>
-                                                        <p>2005 - 2010</p>
-                                                        <h6>Akpoveta Valentine Skills</h6>
-                                                        <ul>
-                                                            <li>Leadership</li>
-                                                            <li>Team Building</li>
-                                                            <li>Consulting</li>
-                                                        </ul>
-                                                        <h6>Akpoveta Valentine Summary</h6>
-                                                        <p>Akpoveta Valentine, based USA, is currently a Brand Marketing
-                                                            Manager at 3DMatic Atelier. Akpoveta Valentine brings
-                                                            experience from previous roles at Men Of Purpose Leadership
-                                                            Initiative and State Knights. Akpoveta Valentine holds a
-                                                            2011 - 2016 Bachelor of Science in Computer Engineering @
-                                                            University of Lagos. With a robust skill set that includes
-                                                            Leadership, Team Building, Consulting, Public Speaking,
-                                                            Personal Development and more. Akpoveta Valentine has 1
-                                                            emails on RocketReach</p>
 
                                                     </div>
                                                 </div>
