@@ -2040,9 +2040,9 @@
                                     </div>
                                     <div class="elementor-widget-container mt-5">
                                         <img decoding="async" width="1024" height="682"
-                                            src="http://127.0.0.1:8000/uprise_city/eventspeakerimg/vol.jpg"
+                                            src="{{ asset('uprise_city/eventspeakerimg/vol.jpg') }}"
                                             class="attachment-full size-full wp-image-742" alt=""
-                                            srcset="http://127.0.0.1:8000/uprise_city/eventspeakerimg/vol.jpg"
+                                            srcset="{{ asset('uprise_city/eventspeakerimg/vol.jpg') }}"
                                             sizes="(max-width: 1024px) 100vw, 1024px" />
                                     </div>
                                 </div>
