@@ -2357,7 +2357,7 @@
                                                             through the fundamentals of modern web technologies. Today,
                                                             I
                                                             continue this journey at
-                                                            Solotech.ai Limited, helping students build strong
+                                                            <span><a href="https://solotech-ai-ltd.com/" target="_blank">Solotech.ai Limited</a></span>, helping students build strong
                                                             foundations
                                                             and real-world problem-solving
                                                             skills in software development.</p>
