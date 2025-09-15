@@ -1573,6 +1573,12 @@
                                                 background-color: #fff !important;
                                             }
 
+                                            .form-set input, select:focus{
+                                                border: 1px solid #261FB3 !important;
+                                                box-shadow: 0 0 5px rgba(38, 31, 179, 0.5);
+                                                color: #000 !important;
+                                            }
+
                                             .form-set button{
                                                 background-color: #261FB3 !important;
                                             }
