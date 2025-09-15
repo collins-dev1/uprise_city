@@ -1569,8 +1569,12 @@
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <style>
-                                            .form-set input{
+                                            .form-set input, select{
                                                 background-color: #fff !important;
+                                            }
+
+                                            .form-set button{
+                                                background-color: #261FB3 !important;
                                             }
                                         </style>
                                         <form action="{{ route('user_reg') }}" method="POST">
