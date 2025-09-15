@@ -1670,7 +1670,7 @@
                                                     <span>I Agree with terms and condition of the Conference</span>
                                                 </div>
                                             </div>
-                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                            <button type="submit" class="btn btn-primary mt-3button">Submit</button>
 
                                         </form>
                                     </div>
