@@ -96,6 +96,10 @@ Route::get('ec2023', function(){
     return view('ec2023');
 })->name('ec2023');
 
+Route::get('registration', function(){
+    return view('registration');
+})->name('registration');
+
 
 Auth::routes(['register' => false]);
 
