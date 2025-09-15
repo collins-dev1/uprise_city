@@ -1568,9 +1568,14 @@
                                     data-id="e343b88" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
+                                        <style>
+                                            .form-set input{
+                                                background-color: #fff !important;
+                                            }
+                                        </style>
                                         <form action="{{ route('user_reg') }}" method="POST">
                                             @csrf
-                                            <div class="">
+                                            <div class="form-set">
                                                 <div>
                                                     <p>Register here for the global wealth conference 2025 please fill
                                                         the right information</p>
