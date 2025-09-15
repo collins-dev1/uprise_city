@@ -1587,7 +1587,7 @@
                                 style="object-fit:fill">
                         </div>
                         <div class="logos">
-                            <img src="{{ asset('uprise_city/eventspeakerimg/aid.png') }}" alt=""
+                            <img src="{{ asset('uprise_city/sponsor_logos/aid.png') }}" alt=""
                                 style="object-fit:fill">
                         </div>
                         <div class="logos">
