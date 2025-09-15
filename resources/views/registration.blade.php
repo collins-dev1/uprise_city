@@ -1501,8 +1501,8 @@
                                         <div class="ekit-wid-con">
                                             <div
                                                 class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <h1 class="ekit-heading--title elementskit-section-title ">UPRISE CITY
-                                                    <br>VISION
+                                                <h1 class="ekit-heading--title elementskit-section-title ">Register with
+                                                    <br>Uprise City
                                                 </h1>
                                             </div>
                                         </div>
@@ -1512,9 +1512,7 @@
                                     data-id="e754f9e" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>To become a leading platform that inspires transformation, empowers
-                                            individuals, and drives global impact through meaningful connections,
-                                            innovation, and excellence in every event we host.</p>
+                                        <p>Take the first step towards growth and innovation. Join Uprise City today and gain access to opportunities, resources, and a community built for success.</p>
                                     </div>
                                 </div>
                                 <style>
@@ -1558,7 +1556,7 @@
                                 <div class="elementor-element elementor-element-5e6c28d elementor-widget elementor-widget-heading"
                                     data-id="5e6c28d" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">Our Vision
+                                        <h3 class="elementor-heading-title elementor-size-default">Register Now
                                         </h3>
                                     </div>
                                 </div>
@@ -1566,11 +1564,100 @@
                                     data-id="e343b88" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p><span style="font-weight: 400;">Uprise City is envisioned "to become number
-                                                one international corporate organization that empowers individuals and
-                                                firms on how to set up structures, make profit and live a better life"
-                                            </span>
-                                        </p>
+                                        <form action="{{ route('user_reg') }}" method="POST">
+                    @csrf
+                    <div class="modal-body">
+                        <div>
+                            <p>Register here for the global wealth conference 2025 please fill the right information</p>
+                        </div>
+                        <div>
+                            <label for="">Full Name</label>
+                            <input type="text" name="full_name" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="mt-3">
+                            <label for="">Email Address</label>
+                            <input type="email" name="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="mt-3">
+                            <label for="">Phone Number</label>
+                            <input type="tel" name="phone_number" class="form-control"
+                                placeholder="Phone Number">
+                        </div>
+                        <div class="mt-3">
+                            <label for="">Select State you are coming from</label>
+                            <select name="state" id="state" class="form-select">
+                                <option value="" disabled selected>-- Select State --</option>
+                                <option value="Abia">Abia</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="Akwa Ibom">Akwa Ibom</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Bayelsa">Bayelsa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Cross River">Cross River</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="FCT - Abuja">FCT - Abuja</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Nasarawa">Nasarawa</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Zamfara">Zamfara</option>
+                            </select>
+
+                        </div>
+
+                        <div class="mt-3">
+                            <label for="">Job Title or Role</label>
+                            <input type="text" name="job_title" class="form-control"
+                                placeholder="Job title or role">
+                        </div>
+                        <div class="mt-3">
+                            <label for="">Company/Organization Name</label>
+                            <input type="text" class="form-control" name="company_name"
+                                placeholder="Company/Organization Name">
+                        </div>
+                        <div class="mt-3">
+                            <label for="">Select your Subscription Ticket</label>
+                            <select name="subscription_ticket" id="subscription_ticket" class="form-select">
+                                <option disabled selected>--Select Ticket--</option>
+                                <option>Regular Ticket (&#8358;7,500)</option>
+                                <option>Special Ticket (&#8358;15,000)</option>
+                                <option>VIP Ticket (&#8358;50,000)</option>
+                            </select>
+                        </div>
+                        <div class="mt-3">
+                            <input type="checkbox" required>
+                            <span>I Agree with terms and condition of the Conference</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+
+                </form>
                                     </div>
                                 </div>
                             </div>
