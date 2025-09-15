@@ -1869,7 +1869,7 @@
                                                     </path>
                                                 </svg> </span>
                                             <span class="elementor-icon-list-text"><b>Location:</b>
-                                                Gardening Event Center, Opp EEDC Head Office, G.R.A Onitsha.</span>
+                                                Presidential Hall, Archbishop Peterson Auditorium, All Saints Cathederal Onitsha</span>
                                         </li>
                                     </ul>
                                 </div>
