@@ -2033,9 +2033,9 @@
                                     data-id="63107ae" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                         <img decoding="async" width="1024" height="682"
-                                            src="{{ asset('uprise_city/eventspeakerimg/general2.jpg') }}"
+                                            src="{{ asset('uprise_city/eventspeakerimg/general1.jpg') }}"
                                             class="attachment-full size-full wp-image-742" alt=""
-                                            srcset="{{ asset('uprise_city/eventspeakerimg/general2.jpg') }}"
+                                            srcset="{{ asset('uprise_city/eventspeakerimg/general1.jpg') }}"
                                             sizes="(max-width: 1024px) 100vw, 1024px" />
                                     </div>
                                     <div class="elementor-widget-container mt-5">
