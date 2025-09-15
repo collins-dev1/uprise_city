@@ -1669,8 +1669,9 @@
                                                     <input type="checkbox" required>
                                                     <span>I Agree with terms and condition of the Conference</span>
                                                 </div>
+                                                <button type="submit" class="btn mt-3 button">Submit</button>
                                             </div>
-                                            <button type="submit" class="btn btn-primary mt-3button">Submit</button>
+
 
                                         </form>
                                     </div>
