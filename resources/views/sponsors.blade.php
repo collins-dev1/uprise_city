@@ -1566,46 +1566,49 @@
                     </div>
                     <div class="logo-container">
                         <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/chillisfood.jpg') }}" alt="">
-                        </div>
-                        <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/perfecthome.jpg') }}" alt="">
-                        </div>
-                        <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/primelogo.png') }}" alt="">
-                        </div>
-                        <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/bsi_logo1.jpg') }}" alt="">
-                        </div>
-                        <div class="logos">
                             <img src="{{ asset('uprise_city/sponsor_logos/affablehome.jpg') }}" alt="">
                         </div>
                         <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/tiger-foods.png') }}" alt="">
+                            <img src="{{ asset('uprise_city/sponsor_logos/chillisfood.jpg') }}" alt="">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('uprise_city/sponsor_logos/CGE.jpg') }}" alt="">
                         </div>
                         <div class="logos">
                             <img src="{{ asset('uprise_city/sponsor_logos/bishop.jpg') }}" alt=""
                                 style="object-fit: cover">
                         </div>
                         <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/joe.jpg') }}" alt=""
-                                style="object-fit:fill">
-                        </div>
-                        <div class="logos">
-                            <img src="{{ asset('uprise_city/sponsor_logos/eaglemind.jpg') }}" alt=""
-                                style="object-fit:fill">
-                        </div>
-                        <div class="logos">
-                            <img src="{{ asset('uprise_city/eventspeakerimg/susu.jpg') }}" alt=""
-                                style="object-fit:fill">
+                            <img src="{{ asset('uprise_city/sponsor_logos/mex.jpeg') }}" alt=""
+                                style="object-fit: cover">
                         </div>
                         <div class="logos">
                             <img src="{{ asset('uprise_city/eventspeakerimg/omeh.jpg') }}" alt=""
                                 style="object-fit:fill">
                         </div>
                         <div class="logos">
+                            <img src="{{ asset('uprise_city/eventspeakerimg/aid.png') }}" alt=""
+                                style="object-fit:fill">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('uprise_city/sponsor_logos/joe.jpg') }}" alt=""
+                                style="object-fit:fill">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('uprise_city/sponsor_logos/perfecthome.jpg') }}" alt="">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('uprise_city/sponsor_logos/bsi_logo1.jpg') }}" alt="">
+                        </div>
+                        <div class="logos">
                             <img src="{{ asset('uprise_city/eventspeakerimg/livic.jpg') }}" alt=""
                                 style="object-fit:fill">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('uprise_city/sponsor_logos/primelogo.png') }}" alt="">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('uprise_city/sponsor_logos/solotech.jpeg') }}" alt="">
                         </div>
                     </div>
                     <style>
