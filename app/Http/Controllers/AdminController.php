@@ -8,13 +8,12 @@ use App\Models\PhotoGallery;
 use App\Models\User;
 use App\Models\User_Regsitration;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use LaravelQRCode\Facades\QRCode;
-use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Illuminate\Support\Facades\Log;
+use LaravelQRCode\Facades\QRCode;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class AdminController extends Controller
 {
@@ -47,55 +46,60 @@ class AdminController extends Controller
     }
 
     // All Users
-    public function users(){
+    public function users()
+    {
         $members = User_Regsitration::all();
+
         return view('admin.users', compact('members'));
     }
 
-    public function approve(User_Regsitration $user) {
-    // Ensure directory exists
-    if (!file_exists(public_path('invites'))) {
-        mkdir(public_path('invites'), 0755, true);
-    }
+    public function approve(User_Regsitration $user)
+    {
+        // Ensure directory exists
+        if (! file_exists(public_path('invites'))) {
+            mkdir(public_path('invites'), 0755, true);
+        }
 
-    $filename = "invites/{$user->email}{$user->id}.png";
-    $path = public_path($filename);
+        $filename = "invites/{$user->email}{$user->id}.png";
+        $path = public_path($filename);
 
-    // Generate QR code
-    QRCode::text("https://www.uprisecity.com/users/{$user->id}/verify")
-        ->setOutfile($path)
-        ->png();
+        // Generate QR code
+        QRCode::text("https://www.uprisecity.com/users/{$user->id}/verify")
+            ->setOutfile($path)
+            ->png();
 
-    $user->payment_status = 'Approved';
-    $user->qrcode = $filename;
-    $user->save();
+        $user->payment_status = 'Approved';
+        $user->qrcode = $filename;
+        $user->save();
 
-    // Pass both user and QR code path to mail
-    Mail::to($user->email)->send(new UpriseCityMail($user, $path));
+        // Pass both user and QR code path to mail
+        Mail::to($user->email)->send(new UpriseCityMail($user, $path));
 
-    Alert::html(
-        '<h3 style="color:black;">Member Approved Successfully!</h3>',
-        '<p style="color:black;">You have successfully approved this member.</p>
+        Alert::html(
+            '<h3 style="color:black;">Member Approved Successfully!</h3>',
+            '<p style="color:black;">You have successfully approved this member.</p>
         <p style="color:black;">A Scan code will be sent to the user Email</p>',
-        'success'
-    )->persistent();
+            'success'
+        )->persistent();
 
-    return redirect()->back();
-}
-    public function verify(User_Regsitration $user) {
-        $attended = '';
-      if ($user->attended != true) {
-         $user->attended = true;
-       $user->save();
-      }
-      else {
-        $attended = "Already In the Conference";
-      }
-       return view('verify', compact('user', 'attended'));
+        return redirect()->back();
     }
 
+    public function verify(User_Regsitration $user)
+    {
+        $attended = '';
+        if ($user->attended != true) {
+            $user->attended = true;
+            $user->save();
+        } else {
+            $attended = 'Already In the Conference';
+        }
 
-    public function delete_user($id){
+        return view('verify', compact('user', 'attended'));
+    }
+
+    public function delete_user($id)
+    {
         $member = User_Regsitration::find($id);
         $member->delete();
         Alert::html(
@@ -103,31 +107,35 @@ class AdminController extends Controller
             '<p style="color:black;">You have successfully deleted this member from the Conference.</p>',
             'success'
         )->persistent();
+
         return redirect()->back();
     }
 
     // Speakers
-    public function add_speaker(){
+    public function add_speaker()
+    {
         return view('admin.add_speaker');
     }
 
-    public function create_speaker(Request $request){
+    public function create_speaker(Request $request)
+    {
         $speaker = $request->validate([
-        'speaker_name' => 'required|string',
-        'speaker_description1' => 'required|string',
-        'speaker_description2' => 'required|string',
-        'speaker_description3' => 'nullable|string',  // optional
-        'speaker_description4' => 'nullable|string',   // optional
-        'speaker_photo' => 'required|file',
-      ]);
-      if (isset($speaker['speaker_photo']) && $speaker['speaker_photo'] instanceof \Illuminate\Http\UploadedFile) {
+            'speaker_name' => 'required|string',
+            'speaker_description1' => 'required|string',
+            'speaker_description2' => 'required|string',
+            'speaker_description3' => 'nullable|string',  // optional
+            'speaker_description4' => 'nullable|string',   // optional
+            'speaker_photo' => 'required|file',
+        ]);
+        if (isset($speaker['speaker_photo']) && $speaker['speaker_photo'] instanceof \Illuminate\Http\UploadedFile) {
             // Validate that it's an image
-            if (!$speaker['speaker_photo']->isValid() || !in_array($speaker['speaker_photo']->getMimeType(), ['image/jpeg', 'image/png', 'image/jpg', 'image/webp'])) {
+            if (! $speaker['speaker_photo']->isValid() || ! in_array($speaker['speaker_photo']->getMimeType(), ['image/jpeg', 'image/png', 'image/jpg', 'image/webp'])) {
                 Alert::html(
-    '<h3 style="color:black;">Error Occurred!</h3>',
-    '<p style="color:black;">Something went wrong with your Image. Please check your image.</p>',
-    'error'
-)->persistent(true);
+                    '<h3 style="color:black;">Error Occurred!</h3>',
+                    '<p style="color:black;">Something went wrong with your Image. Please check your image.</p>',
+                    'error'
+                )->persistent(true);
+
                 return redirect()->back();
             }
 
@@ -141,68 +149,77 @@ class AdminController extends Controller
             '<p style="color:black;">You have successfully created your speaker.</p>',
             'success'
         )->persistent();
+
         return redirect()->back();
     }
 
-    public function manage_speaker(){
+    public function manage_speaker()
+    {
         $speakers = Add_Speaker::all();
+
         return view('admin.manage_speakers', compact('speakers'));
     }
 
     // Gallery Photo
 
-    public function photo_gallery(){
+    public function photo_gallery()
+    {
         return view('admin.add_photogallery');
     }
 
-public function add_photo(Request $request)
-{
-    $request->validate([
-        'photo' => 'required|image|mimes:jpeg,png,jpg,webp|max:5120', // 5MB max
-    ]);
+    public function add_photo(Request $request)
+    {
+        $request->validate([
+            'photo' => 'required|image|mimes:jpeg,png,jpg,webp|max:5120', // 5MB max
+        ]);
 
-    try {
-        // Ensure directory exists
-        $storagePath = storage_path('app/public/gallery_pictures');
-        if (!File::exists($storagePath)) {
-            File::makeDirectory($storagePath, 0755, true);
+        try {
+            // Ensure directory exists
+            $storagePath = storage_path('app/public/gallery_pictures');
+            if (! File::exists($storagePath)) {
+                File::makeDirectory($storagePath, 0755, true);
+            }
+
+            // Generate safe filename
+            $extension = $request->file('photo')->extension();
+            $filename = 'img_'.time().'_'.Str::random(8).'.'.$extension;
+
+            // Store file
+            $path = $request->file('photo')->storeAs(
+                'gallery_pictures',
+                $filename,
+                'public'
+            );
+
+            // Save to database
+            PhotoGallery::create([
+                'photo' => Storage::url($path), // Generates proper URL
+            ]);
+
+            Alert::success('Success!', 'Photo uploaded successfully');
+
+            return back();
+
+        } catch (\Exception $e) {
+            \Log::error('Upload Failed: '.$e->getMessage(), [
+                'exception' => $e,
+            ]);
+
+            Alert::error('Error', 'Upload failed: '.$e->getMessage());
+
+            return back();
         }
-
-        // Generate safe filename
-        $extension = $request->file('photo')->extension();
-        $filename = 'img_'.time().'_'.Str::random(8).'.'.$extension;
-
-        // Store file
-        $path = $request->file('photo')->storeAs(
-            'gallery_pictures',
-            $filename,
-            'public'
-        );
-
-        // Save to database
-        PhotoGallery::create([
-            'photo' => Storage::url($path) // Generates proper URL
-        ]);
-
-        Alert::success('Success!', 'Photo uploaded successfully');
-        return back();
-
-    } catch (\Exception $e) {
-        \Log::error('Upload Failed: '.$e->getMessage(), [
-            'exception' => $e
-        ]);
-
-        Alert::error('Error', 'Upload failed: '.$e->getMessage());
-        return back();
     }
-}
 
-    public function manage_photo(){
+    public function manage_photo()
+    {
         $gallerys = PhotoGallery::all();
+
         return view('admin.manage_photogallery', compact('gallerys'));
     }
 
-    public function delete_photo($id){
+    public function delete_photo($id)
+    {
         $gallery = PhotoGallery::find($id);
         $gallery->delete();
         Alert::html(
@@ -210,28 +227,35 @@ public function add_photo(Request $request)
             '<p style="color:black;">You have successfully deleted the photo from photo gallery.</p>',
             'success'
         )->persistent();
+
         return redirect()->back();
     }
 
-    public function approved_user(){
+    public function approved_user()
+    {
         $members = User_Regsitration::where('payment_status', 'Approved')->get();
+
         return view('admin.approved_user', compact('members'));
     }
 
-    public function regular_user(){
+    public function regular_user()
+    {
         $members = User_Regsitration::where('subscription_ticket', 'Regular Ticket (₦7,500)')->get();
+
         return view('admin.regular_ticket', compact('members'));
     }
 
-    public function special_user(){
+    public function special_user()
+    {
         $members = User_Regsitration::where('subscription_ticket', 'Special Ticket (₦15,000)')->get();
+
         return view('admin.special_ticket', compact('members'));
     }
 
-    public function vip_user(){
+    public function vip_user()
+    {
         $members = User_Regsitration::where('subscription_ticket', 'VIP Ticket (₦50,000)')->get();
+
         return view('admin.vip_ticket', compact('members'));
     }
 }
-
-

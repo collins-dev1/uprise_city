@@ -132,6 +132,3 @@ Route::middleware([AdminMiddleware::class])->group(function(){
   Route::get('/manage_photo', [AdminController::class, 'manage_photo'])->name('manage_photo');
   Route::get('/delete_photo/{id}', [AdminController::class, 'delete_photo'])->name('delete_photo');
 });
-// Route::get('qr-code', function () {
-
-// });
