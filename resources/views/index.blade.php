@@ -1502,9 +1502,9 @@
                                         <div class="ekit-wid-con">
                                             <div
                                                 class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <h1 class="ekit-heading--title elementskit-section-title ">GLOBAL
-                                                    WEALTH
-                                                    <br>CONFERENCE 2025
+                                                <h1 class="ekit-heading--title elementskit-section-title ">UPRISE
+                                                    CITY
+                                                    <br>ACADEMY 2026
                                                 </h1>
                                             </div>
                                         </div>
@@ -1514,7 +1514,7 @@
                                     data-id="e754f9e" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>October 25-26, 2025 | Onitsha, Nigeria</p>
+                                        <p>June - October 2026</p>
                                     </div>
                                 </div>
                                 <style>
