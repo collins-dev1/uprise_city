@@ -1514,7 +1514,7 @@
                                     data-id="e754f9e" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>June - October 2026</p>
+                                        <p>31st October 2026</p>
                                     </div>
                                 </div>
                                 <style>
@@ -2033,18 +2033,19 @@
                                     data-id="63107ae" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                         <img decoding="async" width="1024" height="682"
-                                            src="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 3.jpg') }}"
-                                            class="attachment-full size-full wp-image-742" alt=""
-                                            srcset="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 3.jpg') }}"
-                                            sizes="(max-width: 1024px) 100vw, 1024px" />
-                                    </div>
-                                    <div class="elementor-widget-container">
-                                        <img decoding="async" width="1024" height="682"
                                             src="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 2.jpg') }}"
                                             class="attachment-full size-full wp-image-742" alt=""
                                             srcset="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 2.jpg') }}"
                                             sizes="(max-width: 1024px) 100vw, 1024px" />
                                     </div>
+                                    <div class="elementor-widget-container">
+                                        <img decoding="async" width="1024" height="682"
+                                            src="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 3.jpg') }}"
+                                            class="attachment-full size-full wp-image-742" alt=""
+                                            srcset="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 3.jpg') }}"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" />
+                                    </div>
+
                                     <div class="elementor-widget-container">
                                         <img decoding="async" width="1024" height="682"
                                             src="{{ asset('uprise_city/eventspeakerimg/UPRISE CITY ACADEMY.jpg') }}"

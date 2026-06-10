@@ -1513,7 +1513,7 @@
                                     data-id="e754f9e" data-element_type="widget"
                                     data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                        <p>October 25-26, 2025 | Onitsha, Nigeria</p>
+                                        <p>31st October, 2026 | Onitsha, Nigeria</p>
                                     </div>
                                 </div>
                                 <style>
