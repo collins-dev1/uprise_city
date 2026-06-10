@@ -1064,9 +1064,9 @@
                             <label for="">Select your Subscription Ticket</label>
                             <select name="subscription_ticket" id="subscription_ticket" class="form-select">
                                 <option disabled selected>--Select Ticket--</option>
-                                <option>Regular Ticket (&#8358;7,500)</option>
-                                <option>Special Ticket (&#8358;15,000)</option>
+                                <option>Regular Ticket (&#8358;10,000)</option>
                                 <option>VIP Ticket (&#8358;50,000)</option>
+                                <option>Executive Ticket (&#8358;100,000)</option>
                             </select>
                         </div>
                         <div class="mt-3">

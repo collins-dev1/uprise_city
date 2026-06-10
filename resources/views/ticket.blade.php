@@ -1064,9 +1064,9 @@
                             <label for="">Select your Subscription Ticket</label>
                             <select name="subscription_ticket" id="subscription_ticket" class="form-select">
                                 <option disabled selected>--Select Ticket--</option>
-                                <option>Regular Ticket (&#8358;7,500)</option>
-                                <option>Special Ticket (&#8358;15,000)</option>
+                                <option>Regular Ticket (&#8358;10,000)</option>
                                 <option>VIP Ticket (&#8358;50,000)</option>
+                                <option>Executive Ticket (&#8358;100,000)</option>
                             </select>
                         </div>
                         <div class="mt-3">
@@ -1641,8 +1641,7 @@
                                                             <div
                                                                 style="padding: 10px; display: flex; border-radius: 20px; flex-direction: column; justify-content: center; align-items: center; background-color: #261FB3;">
                                                                 <h3 style="color: #fff;">Regular Ticket</h3>
-                                                                <span style="font-size: 1.2rem;">Seven thousand five
-                                                                    hundread
+                                                                <span style="font-size: 1.2rem;">Ten thousand
                                                                     naira</span>
                                                                 <div style="display: flex; flex-direction:column; justify-content:center; align-items:center; color:#fff;">
                                                                     <h6>Perks</h6>
@@ -1655,7 +1654,7 @@
                                                                     </ul>
                                                                 </div>
 
-                                                                <h3 style="color: #fff;">&#8358;7,500</h3>
+                                                                <h3 style="color: #fff;">&#8358;10,000</h3>
 
                                                             </div>
 
@@ -1682,8 +1681,8 @@
                                                         <div class="gallery-item-thumbnail-wrap" style="height: 400px">
                                                             <div
                                                                 style="padding: 20px; display: flex; border-radius: 20px; flex-direction: column; justify-content: center; align-items: center; background-color: #261FB3;">
-                                                                <h3 style="color: #fff;">Special Ticket</h3>
-                                                                <span style="font-size: 1.2rem;">Fifteen thousand
+                                                                <h3 style="color: #fff;">VIP Ticket</h3>
+                                                                <span style="font-size: 1.2rem;">Fifty thousand
                                                                     naira</span>
                                                                     <div style="display: flex; flex-direction:column; justify-content:center; align-items:center; color:#fff;">
                                                                     <h6>Perks</h6>
@@ -1697,7 +1696,7 @@
                                                                         <li>Jotter and Pen</li>
                                                                     </ul>
                                                                 </div>
-                                                                <h3 style="color: #fff;">&#8358;15,000</h3>
+                                                                <h3 style="color: #fff;">&#8358;50,000</h3>
                                                             </div>
                                                         </div>
                                                         <div
@@ -1722,8 +1721,8 @@
                                                         <div class="gallery-item-thumbnail-wrap" style="height: 600px">
                                                             <div
                                                                 style="padding: 20px; display: flex; border-radius: 20px; flex-direction: column; justify-content: center; align-items: center; background-color: #261FB3;">
-                                                                <h3 style="color: #fff;">VIP Ticket</h3>
-                                                                <span style="font-size: 1.2rem;">Fifty thousand
+                                                                <h3 style="color: #fff;">Executive Ticket</h3>
+                                                                <span style="font-size: 1.2rem;">One Hundread thousand
                                                                     naira</span>
                                                                     <div style="display: flex; flex-direction:column; justify-content:center; align-items:center; color:#fff;">
                                                                     <h6>Perks</h6>
@@ -1741,7 +1740,7 @@
                                                                         <li>Jotter and Pen</li>
                                                                     </ul>
                                                                 </div>
-                                                                <h3 style="color: #fff;">&#8358;50,000</h3>
+                                                                <h3 style="color: #fff;">&#8358;100,000</h3>
                                                             </div>
                                                         </div>
                                                         <div

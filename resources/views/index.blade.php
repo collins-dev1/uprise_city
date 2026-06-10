@@ -1065,9 +1065,9 @@
                             <label for="">Select your Subscription Ticket</label>
                             <select name="subscription_ticket" id="subscription_ticket" class="form-select">
                                 <option disabled selected>--Select Ticket--</option>
-                                <option>Regular Ticket (&#8358;7,500)</option>
-                                <option>Special Ticket (&#8358;15,000)</option>
+                                <option>Regular Ticket (&#8358;10,000)</option>
                                 <option>VIP Ticket (&#8358;50,000)</option>
+                                <option>Executive Ticket (&#8358;100,000)</option>
                             </select>
                         </div>
                         <div class="mt-3">
@@ -1502,9 +1502,9 @@
                                         <div class="ekit-wid-con">
                                             <div
                                                 class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <h1 class="ekit-heading--title elementskit-section-title ">UPRISE
-                                                    CITY
-                                                    <br>ACADEMY 2026
+                                                <h1 class="ekit-heading--title elementskit-section-title ">GLOBAL
+                                                    WEALTH
+                                                    <br>CONFERENCE 2026
                                                 </h1>
                                             </div>
                                         </div>
@@ -2031,6 +2031,20 @@
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-63107ae elementor-widget elementor-widget-image"
                                     data-id="63107ae" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img decoding="async" width="1024" height="682"
+                                            src="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 3.jpg') }}"
+                                            class="attachment-full size-full wp-image-742" alt=""
+                                            srcset="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 3.jpg') }}"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" />
+                                    </div>
+                                    <div class="elementor-widget-container">
+                                        <img decoding="async" width="1024" height="682"
+                                            src="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 2.jpg') }}"
+                                            class="attachment-full size-full wp-image-742" alt=""
+                                            srcset="{{ asset('uprise_city/eventspeakerimg/GLOBAL WEALTH 2026 2.jpg') }}"
+                                            sizes="(max-width: 1024px) 100vw, 1024px" />
+                                    </div>
                                     <div class="elementor-widget-container">
                                         <img decoding="async" width="1024" height="682"
                                             src="{{ asset('uprise_city/eventspeakerimg/UPRISE CITY ACADEMY.jpg') }}"
