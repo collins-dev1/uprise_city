@@ -1440,8 +1440,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-md elementor-animation-shrink"
-                                        href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" data-bs-toggle="modal"
-                                        data-bs-target="#staticBackdrop">
+                                        href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Register Now</span>
                                         </span>
