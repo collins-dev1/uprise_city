@@ -1439,8 +1439,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-md elementor-animation-shrink"
-                                        href="index.html#join" data-bs-toggle="modal"
-                                        data-bs-target="#staticBackdrop">
+                                        href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Register Now</span>
                                         </span>
@@ -1659,8 +1658,8 @@
                             data-id="972de13" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-xl" href=""
-                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a class="elementor-button elementor-button-link elementor-size-xl" href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank"
+                                        >
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Register to Join Us</span>
                                         </span>
@@ -1801,7 +1800,7 @@
 
                                     <div class="elementor-price-table__footer">
                                         <a class="elementor-price-table__button elementor-button elementor-size-md elementor-animation-shrink"
-                                            href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank">
                                             Register To Join Us </a>
 
                                     </div>
