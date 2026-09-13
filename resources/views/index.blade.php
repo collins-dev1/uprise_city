@@ -29,17 +29,17 @@
           <ul class="nav-main">
             <li><a href="{{url('/')}}" class="nav-link">Home</a></li>
             <li class="has-dropdown">
-              <a href="about.html" class="nav-link"
+              <a href="{{route('about')}}" class="nav-link"
                 >About Us <span class="caret"></span
               ></a>
               <div class="dropdown">
-                <a href="about.html#history">History</a>
-                <a href="about.html#mission">Mission</a>
-                <a href="about.html#vision">Vision</a>
-                <a href="about.html#values">Core Values</a>
+                <a href="{{route('about')}}#history">History</a>
+                <a href="{{route('about')}}#mission">Mission</a>
+                <a href="{{route('about')}}#vision">Vision</a>
+                <a href="{{route('about')}}#values">Core Values</a>
               </div>
             </li>
-            <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+            <li><a href="{{route('contact')}}" class="nav-link">Contact Us</a></li>
             <li><a href="officials.html" class="nav-link">Officials</a></li>
             <li><a href="courses.html" class="nav-link">Courses</a></li>
             <li class="has-dropdown">

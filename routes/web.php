@@ -10,14 +10,12 @@ use Illuminate\Support\Facades\Route;
 use LaravelQRCode\Facades\QRCode;
 
 Route::get('/', function () {
-    $speaker = Add_Speaker::all();
-    $gallerys = PhotoGallery::all();
-    return view('index', compact('speaker', 'gallerys'));
+    return view('index');
 });
 
-Route::get('/mission', function(){
-    return view('mission');
-})->name('mission');
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
 
 Route::get('/corevalue', function(){
     return view('corevalue');
