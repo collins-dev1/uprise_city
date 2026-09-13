@@ -40,7 +40,7 @@ body{
   background: var(--paper);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 img{ max-width:100%; display:block; }
 a{ color: inherit; text-decoration: none; }
@@ -510,6 +510,9 @@ p{ margin: 0 0 1em; max-width: 62ch; }
    RESPONSIVE
    ========================================================= */
 @media (max-width: 980px){
+    body{
+        overflow-x: hidden;
+    }
   .hero-grid{ grid-template-columns: 1fr; flex-direction: column-reverse; padding-top: 56px;  display: flex;}
   .lede-holder{
     display: flex;
