@@ -162,10 +162,10 @@
 </section>
 
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="{{url('/')}}" class="brand">
               <span style="width: 80px; height: 80px">
                 <img
                   src="{{asset('uprise-city/img/uprise-removebg-preview.png')}}"
@@ -175,47 +175,79 @@
                 />
               </span>
             </a>
-        <p>An economic and social empowerment initiative based in Eastern Nigeria, equipping individuals and businesses to build structures, create wealth and lead lasting change.</p>
-        <div class="social-row">
-          <a href="https://www.facebook.com/share/1AbEHatmqQ/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
-          <a href="https://www.instagram.com/_uprisecity?igsh=OWZmMGdwMjU0ZHV2" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
-          <a href="https://wa.me/message/P3NAECJRAZJNA1" target="_blank" rel="noopener" aria-label="WhatsApp">wa</a>
-          <a href="mailto:uprisecitynig@gmail.com" aria-label="Email">@</a>
+            <p>
+              An economic and social empowerment initiative based in Eastern
+              Nigeria, equipping individuals and businesses to build structures,
+              create wealth and lead lasting change.
+            </p>
+            <div class="social-row">
+              <a
+                href="https://www.facebook.com/share/1AbEHatmqQ/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+                >f</a
+              >
+              <a
+                href="https://www.instagram.com/_uprisecity?igsh=OWZmMGdwMjU0ZHV2"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                >ig</a
+              >
+              <a
+                href="https://wa.me/message/P3NAECJRAZJNA1"
+                target="_blank"
+                rel="noopener"
+                aria-label="WhatsApp"
+                >wa</a
+              >
+              <a href="mailto:uprisecitynig@gmail.com" aria-label="Email">@</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="{{route('about')}}">About Us</a></li>
+              <li><a href="{{route('officials')}}">Officials</a></li>
+              <li><a href="{{route('programmes')}}">Courses</a></li>
+              <li><a href="{{route('gallery')}}">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Global Wealth Conference</h4>
+            <ul>
+              <li><a href="{{route('speakers')}}">Speakers</a></li>
+              <li><a href="{{route('tickets')}}">Tickets</a></li>
+              <li><a href="{{route('sponsors')}}">Sponsors</a></li>
+              <li><a href="{{route('contact')}}">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get in touch</h4>
+            <ul>
+              <li>Onitsha, Anambra State, Nigeria</li>
+              <li><a href="tel:+2348085233053">+234 808 523 3053</a></li>
+              <li>
+                <a href="mailto:uprisecitynig@gmail.com"
+                  >uprisecitynig@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >&copy; <span data-year></span> Uprise City. All rights
+            reserved.</span
+          >
+          <span
+            >Global Wealth Conference &middot; 31 October 2026 &middot;
+            Onitsha</span
+          >
         </div>
       </div>
-      <div class="footer-col">
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="officials.html">Officials</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Global Wealth Conference</h4>
-        <ul>
-          <li><a href="speakers.html">Speakers</a></li>
-          <li><a href="tickets.html">Tickets</a></li>
-          <li><a href="sponsors.html">Sponsors</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Get in touch</h4>
-        <ul>
-          <li>Onitsha, Anambra State, Nigeria</li>
-          <li><a href="tel:+2348085233053">+234 808 523 3053</a></li>
-          <li><a href="mailto:uprisecitynig@gmail.com">uprisecitynig@gmail.com</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>&copy; <span data-year></span> Uprise City. All rights reserved.</span>
-      <span>Global Wealth Conference &middot; 31 October 2026 &middot; Onitsha</span>
-    </div>
-  </div>
-</footer>
+    </footer>
 
 <script src="{{asset('uprise-city/js/main.js')}}"></script>
 </body>

@@ -270,10 +270,10 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand">
-            <a href="index.html" class="brand">
+            <a href="{{url('/')}}" class="brand">
               <span style="width: 80px; height: 80px">
                 <img
-                  src="/img/uprise-removebg-preview.png"
+                  src="{{asset('uprise-city/img/uprise-removebg-preview.png')}}"
                   width="100%"
                   height="100%"
                   alt=""
@@ -313,19 +313,19 @@
           <div class="footer-col">
             <h4>Explore</h4>
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="officials.html">Officials</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="{{route('about')}}">About Us</a></li>
+              <li><a href="{{route('officials')}}">Officials</a></li>
+              <li><a href="{{route('programmes')}}">Courses</a></li>
+              <li><a href="{{route('gallery')}}">Gallery</a></li>
             </ul>
           </div>
           <div class="footer-col">
             <h4>Global Wealth Conference</h4>
             <ul>
-              <li><a href="speakers.html">Speakers</a></li>
-              <li><a href="tickets.html">Tickets</a></li>
-              <li><a href="sponsors.html">Sponsors</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="{{route('speakers')}}">Speakers</a></li>
+              <li><a href="{{route('tickets')}}">Tickets</a></li>
+              <li><a href="{{route('sponsors')}}">Sponsors</a></li>
+              <li><a href="{{route('contact')}}">Contact Us</a></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -354,6 +354,6 @@
       </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="{{asset('uprise-city/js/main.js')}}"></script>
   </body>
 </html>
