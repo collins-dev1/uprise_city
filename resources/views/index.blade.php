@@ -8,7 +8,7 @@
       name="description"
       content="Uprise City is an economic and social empowerment initiative based in Eastern Nigeria. Join the Global Wealth Conference, 31 October 2026, Onitsha."
     />
-    <link rel="stylesheet" href="{{asset('uprise-city/css/style.css')}}" />
+    <link rel="stylesheet" href="{{asset('uprise-city/style.css')}}" />
   </head>
   <body>
     <header class="site-header">
