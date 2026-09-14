@@ -16,7 +16,7 @@
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
                 <span style="width: 80px; height: 80px">
-                    <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%" height="100%"
+                    <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%" height="100%"
                         alt="" />
                 </span>
             </a>
@@ -153,7 +153,7 @@
             <div class="split">
                 <div class="split-media">
                     <video src="{{ asset('uprise-city/video/UPRISE CITY AD.mp4') }}" controls width="100%"
-                        height="100%" poster="{{ asset('uprise-city/img/uprisecitylogo.png') }}"></video>
+                        height="100%" poster="{{ asset('uprise-city/img/uprise.jpg') }}"></video>
                 </div>
                 <div>
                     <span class="kicker">Who we are</span>
@@ -369,7 +369,7 @@
                 <div class="footer-brand">
                     <a href="{{url('/')}}" class="brand">
                         <span style="width: 80px; height: 80px">
-                            <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%"
+                            <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%"
                                 height="100%" alt="" />
                         </span>
                     </a>

@@ -14,7 +14,7 @@
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
                 <span style="width: 80px; height: 80px">
-                    <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%" height="100%"
+                    <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%" height="100%"
                         alt="" />
                 </span>
             </a>
@@ -127,7 +127,7 @@
                 <div class="footer-brand">
                     <a href="{{ url('/') }}" class="brand">
                         <span style="width: 80px; height: 80px">
-                            <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%"
+                            <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%"
                                 height="100%" alt="" />
                         </span>
                     </a>

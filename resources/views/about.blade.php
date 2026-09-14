@@ -15,7 +15,7 @@
     <a href="{{url('/')}}" class="brand">
           <span style="width: 80px; height: 80px">
             <img
-              src="{{asset('uprise-city/img/uprise-removebg-preview.png')}}"
+              src="{{asset('uprise-city/img/uprise.jpg')}}"
               width="100%"
               height="100%"
               alt=""
@@ -168,7 +168,7 @@
             <a href="{{url('/')}}" class="brand">
               <span style="width: 80px; height: 80px">
                 <img
-                  src="{{asset('uprise-city/img/uprise-removebg-preview.png')}}"
+                  src="{{asset('uprise-city/img/uprise.jpg')}}"
                   width="100%"
                   height="100%"
                   alt=""

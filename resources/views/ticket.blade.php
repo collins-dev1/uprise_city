@@ -14,7 +14,7 @@
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
                 <span style="width: 80px; height: 80px">
-                    <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%" height="100%"
+                    <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%" height="100%"
                         alt="" />
                 </span>
             </a>
@@ -76,7 +76,6 @@
         <ul>
           <li>Access to main event</li>
           <li>Networking opportunities</li>
-          <li>Participation e-certificate</li>
           <li>Access to vendors</li>
           <li>Free e-book</li>
         </ul>
@@ -90,12 +89,12 @@
         <ul>
           <li>Access to main event</li>
           <li>Networking opportunities</li>
-          <li>Participation e-certificate</li>
+          <li>Participation E-certificate</li>
           <li>Access to vendors</li>
           <li>Free e-book</li>
           <li>Reserved seating</li>
-          <li>Jotter and pen</li>
-          <li>Day 2 executive session access</li>
+          <li>Take home nibbles</li>
+          <li>Uprise city/Academy profile</li>
         </ul>
         <a href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" rel="noopener" class="btn btn-brass btn-block">Book a Slot</a>
       </div>
@@ -107,12 +106,13 @@
           <li>Access to main event</li>
           <li>Access to masterclass</li>
           <li>Executive networking opportunities</li>
-          <li>Participation e-certificate</li>
+          <li>Participation E-certificate</li>
           <li>Access to vendors</li>
-          <li>Free e-book &amp; one hard-copy book</li>
+          <li>Free e-book</li>
           <li>Executive reserved seating</li>
-          <li>Executive lunch, Day 2</li>
-          <li>Take-home nibbles, jotter and pen</li>
+          <li>B.R.E.A.K.O.U.T Book by Rev Bs'l</li>
+          <li>Take-home nibbles</li>
+          <li>Uprise City/Academy Profile</li>
         </ul>
         <a href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" rel="noopener" class="btn btn-ghost btn-block">Book a Slot</a>
       </div>
@@ -129,48 +129,43 @@
 
     <div class="schedule">
       <div class="schedule-day">
-        <span class="tag">DAY 1 &middot; ALL TICKET HOLDERS</span>
+        <span class="tag">ALL TICKET HOLDERS</span>
         <h3 style="margin-top:8px;">Saturday, 31st October</h3>
         <div class="schedule-row">
-          <div class="schedule-time">8:30 – 10:00 AM</div>
-          <div class="schedule-what">Red carpet arrivals</div>
+          <div class="schedule-time">9:30 AM – 10:30 AM</div>
+          <div class="schedule-what">Red Carpet Guest Arrivals</div>
         </div>
         <div class="schedule-row">
-          <div class="schedule-time">10:00 – 1:30 PM</div>
-          <div class="schedule-what">Morning session</div>
+          <div class="schedule-time">10:30 AM – 10:50 AM</div>
+          <div class="schedule-what">Opening Formalities</div>
         </div>
         <div class="schedule-row">
-          <div class="schedule-time">1:30 – 2:00 PM</div>
-          <div class="schedule-what">Short break</div>
+          <div class="schedule-time">10:50 AM – 10:55 AM</div>
+          <div class="schedule-what">Opening Prayer</div>
         </div>
         <div class="schedule-row">
-          <div class="schedule-time">2:00 – 4:30 PM</div>
-          <div class="schedule-what">Final session</div>
+          <div class="schedule-time">11:00 AM – 1:00 PM</div>
+          <div class="schedule-what">First Sessions</div>
+        </div>
+         <div class="schedule-row">
+          <div class="schedule-time">1:00 PM – 1:15 PM</div>
+          <div class="schedule-what">Music Break</div>
+        </div>
+         <div class="schedule-row">
+          <div class="schedule-time">1:15 PM – 3:00 PM</div>
+          <div class="schedule-what">Finial Sessions</div>
+        </div>
+         <div class="schedule-row">
+          <div class="schedule-time">3:00 PM – 3:30 PM</div>
+          <div class="schedule-what">Closing Formalities & Closing Prayers</div>
+        </div>
+         <div class="schedule-row">
+          <div class="schedule-time">3:30 PM – 5:00 PM</div>
+          <div class="schedule-what">Official Photographs & Networking</div>
         </div>
         <div class="schedule-row">
           <div class="schedule-time">Location</div>
           <div class="schedule-what">Vegas Astoria Hotels Opposite Stock Exchange Onitsha, Anambra State Nigeria.</div>
-        </div>
-      </div>
-
-      <div class="schedule-day">
-        <span class="tag">DAY 2 &middot; VIP &amp; EXECUTIVE ONLY</span>
-        <h3 style="margin-top:8px;">Sunday, 1st November</h3>
-        <div class="schedule-row">
-          <div class="schedule-time">11:00 – 12:00 PM</div>
-          <div class="schedule-what">Arrival and accreditation</div>
-        </div>
-        <div class="schedule-row">
-          <div class="schedule-time">12:00 – 3:00 PM</div>
-          <div class="schedule-what">Executive trainings</div>
-        </div>
-        <div class="schedule-row">
-          <div class="schedule-time">3:00 – 4:30 PM</div>
-          <div class="schedule-what">Q&amp;A and networking</div>
-        </div>
-        <div class="schedule-row">
-          <div class="schedule-time">Location</div>
-          <div class="schedule-what">Sent directly to registered VIP &amp; Executive attendees</div>
         </div>
       </div>
     </div>
@@ -207,7 +202,7 @@
                 <div class="footer-brand">
                     <a href="{{ url('/') }}" class="brand">
                         <span style="width: 80px; height: 80px">
-                            <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%"
+                            <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%"
                                 height="100%" alt="" />
                         </span>
                     </a>
