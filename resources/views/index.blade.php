@@ -94,7 +94,7 @@
                 <div class="hero-actions">
                     <a href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" rel="noopener"
                         class="btn btn-brass">Register Now</a>
-                    <a href="tickets.html" class="btn btn-outline">View Ticket Tiers</a>
+                    <a href="{{route('tickets')}}" class="btn btn-outline">View Ticket Tiers</a>
                 </div>
 
                 <div class="countdown" data-countdown="2026-10-31T09:00:00" aria-label="Countdown to the conference">
@@ -172,7 +172,7 @@
                         Global Wealth Conference — all built to lead socioeconomic change
                         across Africa.
                     </p>
-                    <a href="about.html" class="btn btn-ghost">Read Our Story</a>
+                    <a href="{{route('about')}}" class="btn btn-ghost">Read Our Story</a>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
             <div style="margin-top: 52px; display: flex; gap: 16px; flex-wrap: wrap">
                 <a href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" rel="noopener"
                     class="btn btn-brass">Register Now</a>
-                <a href="speakers.html" class="btn btn-outline">Meet the Speakers</a>
+                <a href="{{route('speakers')}}" class="btn btn-outline">Meet the Speakers</a>
             </div>
         </div>
     </section>
@@ -358,7 +358,7 @@
             margin-top: 24px;
           ">
                 <a href="mailto:uprisecitynig@gmail.com" class="btn btn-ink">Email Us</a>
-                <a href="contact.html" class="btn btn-ghost">Contact Page</a>
+                <a href="{{route('contact')}}" class="btn btn-ghost">Contact Page</a>
             </div>
         </div>
     </section>
