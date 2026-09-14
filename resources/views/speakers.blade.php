@@ -224,7 +224,7 @@
         <div class="container">
             <span class="kicker">Panel Discussion</span>
             <h2 style="margin-bottom:40px;">Our Panelists and Officials</h2>
-            <div class="people-grid" style="grid-template-columns:repeat(4,1fr); max-width:1200px;">
+            <div class="people-grid" style="grid-template-columns:repeat(2,1fr); max-width:1500px;">
                 <div class="person-card" data-bio-trigger="sp-nkem">
                     <div class="avatar">
                         <img src="{{asset('uprise-city/official_img/precious.jpg')}}" alt="">
