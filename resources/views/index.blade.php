@@ -11,7 +11,7 @@
     <link rel="icon" href="{{ asset('uprise-city/img/uprise.jpg') }}">
 </head>
 
-<body>
+<body style="overflow-x: hidden">
     <header class="site-header">
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
