@@ -58,7 +58,7 @@
 
 <section class="page-hero">
   <div class="container">
-    <p class="breadcrumb"><a href="index.html">Home</a> / <span>Officials</span></p>
+    <p class="breadcrumb"><a href="{{url('/')}}">Home</a> / <span>Officials</span></p>
     <h1>Our Officials</h1>
     <p style="max-width:60ch; color:rgba(247,244,236,.7);">Our dedicated team of officials is committed to the success of the conference. With a wealth of experience and a shared passion for excellence, they oversee planning, coordination and execution — guaranteeing a seamless, impactful event for every participant. Tap any card to read a full profile.</p>
   </div>

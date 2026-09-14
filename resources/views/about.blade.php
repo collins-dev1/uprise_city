@@ -35,21 +35,21 @@
           </div>
         </li>
         <li><a href="{{route('contact')}}" class="nav-link">Contact Us</a></li>
-        <li><a href="officials.html" class="nav-link">Officials</a></li>
-        <li><a href="courses.html" class="nav-link">Courses</a></li>
+        <li><a href="{{route('officials')}}" class="nav-link">Officials</a></li>
+        <li><a href="{{route('programmes')}}" class="nav-link">Courses</a></li>
         <li class="has-dropdown">
-          <a href="speakers.html" class="nav-link">Global Wealth Conference <span class="caret"></span></a>
+          <a href="{{route('speakers')}}" class="nav-link">Global Wealth Conference <span class="caret"></span></a>
           <div class="dropdown">
-            <a href="speakers.html">Speakers</a>
-            <a href="tickets.html">Tickets</a>
-            <a href="sponsors.html">Sponsors</a>
+            <a href="{{route('speakers')}}">Speakers</a>
+            <a href="{{route('tickets')}}">Tickets</a>
+            <a href="{{route('sponsors')}}">Sponsors</a>
           </div>
         </li>
-        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="{{route('gallery')}}" class="nav-link">Gallery</a></li>
       </ul>
     </nav>
     <div class="nav-cta">
-      <a href="tickets.html" class="btn btn-brass btn-sm">Get Tickets</a>
+      <a href="{{route('tickets')}}" class="btn btn-brass btn-sm">Get Tickets</a>
       <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -57,7 +57,7 @@
 
 <section class="page-hero">
   <div class="container">
-    <p class="breadcrumb"><a href="index.html">Home</a> / <span>About Us</span></p>
+    <p class="breadcrumb"><a href="{{url('/')}}">Home</a> / <span>About Us</span></p>
     <h1>Each year, we grow stronger — building a legacy of excellence, collaboration and unforgettable experiences.</h1>
   </div>
 </section>

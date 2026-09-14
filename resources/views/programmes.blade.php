@@ -61,7 +61,7 @@
 
     <section class="page-hero">
         <div class="container">
-            <p class="breadcrumb"><a href="index.html">Home</a> / <span>Courses</span></p>
+            <p class="breadcrumb"><a href="{{url('/')}}">Home</a> / <span>Courses</span></p>
             <h1>Certificate Programmes</h1>
             <p style="max-width:60ch; color:rgba(247,244,236,.7);">A series of impactful sessions designed to educate,
                 inspire and empower. From keynote addresses to interactive workshops, our programmes are curated to
@@ -144,7 +144,7 @@
                     <p class="lede">Every programme is facilitated by people who have built businesses, led teams and
                         mentored hundreds of entrepreneurs — the same officials and speakers behind the Global Wealth
                         Conference.</p>
-                    <a href="officials.html" class="btn btn-outline">Meet the Facilitators</a>
+                    <a href="{{route('officials')}}" class="btn btn-outline">Meet the Facilitators</a>
                 </div>
                 <div class="grid-2" style="gap:1px; background:var(--line-dark); border:1px solid var(--line-dark);">
                     <div style="background:var(--ink-2); padding:28px;">

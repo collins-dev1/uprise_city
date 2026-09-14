@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery | Uprise City</title>
-<meta name="description" content="Browse photos from Uprise City events — Young Entrepreneurs Conference, Eruption Conference, and the Global Wealth Conference through the years.">
-<link rel="stylesheet" href="{{ asset('uprise-city/css/style.css') }}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Uprise City</title>
+    <meta name="description"
+        content="Browse photos from Uprise City events — Young Entrepreneurs Conference, Eruption Conference, and the Global Wealth Conference through the years.">
+    <link rel="stylesheet" href="{{ asset('uprise-city/css/style.css') }}" />
     <link rel="icon" href="{{ asset('uprise-city/img/uprise.jpg') }}">
 </head>
+
 <body>
 
-<header class="site-header">
+    <header class="site-header">
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
                 <span style="width: 80px; height: 80px">
@@ -56,79 +59,98 @@
         </div>
     </header>
 
-<section class="page-hero">
-  <div class="container">
-    <p class="breadcrumb"><a href="index.html">Home</a> / <span>Gallery</span></p>
-    <h1>Photo Gallery</h1>
-    <p style="max-width:60ch; color:rgba(247,244,236,.7);">A look back at over a decade of summits, conferences and community — from the first Young Entrepreneurs Conference to the latest Global Wealth Conference.</p>
-  </div>
-</section>
+    <section class="page-hero">
+        <div class="container">
+            <p class="breadcrumb"><a href="{{ url('/') }}">Home</a> / <span>Gallery</span></p>
+            <h1>Photo Gallery</h1>
+            <p style="max-width:60ch; color:rgba(247,244,236,.7);">A look back at over a decade of summits, conferences
+                and community — from the first Young Entrepreneurs Conference to the latest Global Wealth Conference.
+            </p>
+        </div>
+    </section>
 
-<section class="section">
-  <div class="container">
-    <div class="filter-bar">
-      <button class="filter-btn is-active" data-filter="all">All Years</button>
-      <button class="filter-btn" data-filter="yec">Young Entrepreneurs Conference</button>
-      <button class="filter-btn" data-filter="gwc">Global Wealth Conference</button>
-      <button class="filter-btn" data-filter="ec">Eruption Conference</button>
-    </div>
+    <section class="section">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn is-active" data-filter="all">All Years</button>
+                <button class="filter-btn" data-filter="yec">Young Entrepreneurs Conference</button>
+                <button class="filter-btn" data-filter="gwc">Global Wealth Conference</button>
+                <button class="filter-btn" data-filter="ec">Eruption Conference</button>
+            </div>
 
-    <div class="gallery-grid">
-      <div class="gallery-item" data-cat="yec">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062119_504.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="yec">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062219_513.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="yec">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062226_598.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062240_901.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062310_392.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062346_965.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_016.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="ec">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_019.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_147.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_228.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_291.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_373.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_378.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-      <div class="gallery-item" data-cat="gwc">
-        <img src="{{asset('uprise-city/gallery_img/IMG_20241004_062347_439.jpg')}}" width="100%" height="100%" alt="">
-      </div>
-    </div>
-    <p class="form-note center mx-auto" style="margin-top:24px;">Gallery tiles are placeholders — drop in your event photography for each year to bring this page to life.</p>
-  </div>
-</section>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-cat="yec">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062119_504.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="yec">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062219_513.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="yec">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062226_598.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062240_901.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062310_392.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062346_965.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_016.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="ec">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_019.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_147.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_228.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_291.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_373.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_378.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+                <div class="gallery-item" data-cat="gwc">
+                    <img src="{{ asset('uprise-city/gallery_img/IMG_20241004_062347_439.jpg') }}" width="100%"
+                        height="100%" alt="">
+                </div>
+            </div>
+            <p class="form-note center mx-auto" style="margin-top:24px;">Gallery tiles are placeholders — drop in your
+                event photography for each year to bring this page to life.</p>
+        </div>
+    </section>
 
-<section class="section--tight section--dark center">
-  <div class="container">
-    <h2 style="max-width:24ch; margin:0 auto 12px;">Be part of the next chapter — Global Wealth Conference 2026.</h2>
-    <a href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" rel="noopener" class="btn btn-brass">Register Now</a>
-  </div>
-</section>
+    <section class="section--tight section--dark center">
+        <div class="container">
+            <h2 style="max-width:24ch; margin:0 auto 12px;">Be part of the next chapter — Global Wealth Conference
+                2026.</h2>
+            <a href="https://forms.gle/jDSWcwRPrVbEDwoE7" target="_blank" rel="noopener"
+                class="btn btn-brass">Register Now</a>
+        </div>
+    </section>
 
- <footer class="site-footer">
+    <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
@@ -191,6 +213,7 @@
         </div>
     </footer>
 
-<script src="{{asset('uprise-city/js/main.js')}}"></script>
+    <script src="{{ asset('uprise-city/js/main.js') }}"></script>
 </body>
+
 </html>

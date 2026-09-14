@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sponsors | Global Wealth Conference — Uprise City</title>
 <meta name="description" content="Meet the sponsors and partners powering the Uprise City Global Wealth Conference. Enquire about sponsorship packages.">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="{{ asset('uprise-city/css/style.css') }}" />
+    <link rel="icon" href="{{ asset('uprise-city/img/uprise.jpg') }}">
 </head>
 <body>
 
@@ -57,7 +58,7 @@
 
 <section class="page-hero">
   <div class="container">
-    <p class="breadcrumb"><a href="index.html">Home</a> / <span>Sponsors</span></p>
+    <p class="breadcrumb"><a href="{{url('/')}}">Home</a> / <span>Sponsors</span></p>
     <h1>Global Wealth Conference Sponsors</h1>
     <p style="max-width:60ch; color:rgba(247,244,236,.7);">We proudly partner with forward-thinking organisations that share our vision for innovation and growth. Their generous support makes this event possible and helps us create meaningful experiences for every attendee.</p>
   </div>

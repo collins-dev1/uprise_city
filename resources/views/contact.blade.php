@@ -13,65 +13,55 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="nav-wrap">
-        <a href="{{url('/')}}" class="brand">
-          <span style="width: 80px; height: 80px">
-            <img
-              src="{{asset('uprise-city/img/uprise-removebg-preview.png')}}"
-              width="100%"
-              height="100%"
-              alt=""
-            />
-          </span>
-        </a>
-        <nav aria-label="Primary">
-          <ul class="nav-main">
-            <li><a href="{{url('/')}}" class="nav-link">Home</a></li>
-            <li class="has-dropdown">
-              <a href="{{route('about')}}" class="nav-link"
-                >About Us <span class="caret"></span
-              ></a>
-              <div class="dropdown">
-                <a href="{{route('about')}}#history">History</a>
-                <a href="{{route('about')}}#mission">Mission</a>
-                <a href="{{route('about')}}#vision">Vision</a>
-                <a href="{{route('about')}}#values">Core Values</a>
-              </div>
-            </li>
-            <li><a href="{{route('contact')}}" class="nav-link">Contact Us</a></li>
-            <li><a href="officials.html" class="nav-link">Officials</a></li>
-            <li><a href="courses.html" class="nav-link">Courses</a></li>
-            <li class="has-dropdown">
-              <a href="speakers.html" class="nav-link"
-                >Global Wealth Conference <span class="caret"></span
-              ></a>
-              <div class="dropdown">
-                <a href="speakers.html">Speakers</a>
-                <a href="tickets.html">Tickets</a>
-                <a href="sponsors.html">Sponsors</a>
-              </div>
-            </li>
-            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-          </ul>
-        </nav>
-        <div class="nav-cta">
-          <a href="tickets.html" class="btn btn-brass btn-sm">Get Tickets</a>
-          <button
-            class="nav-toggle"
-            type="button"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-          >
-            <span></span><span></span><span></span>
-          </button>
+        <div class="nav-wrap">
+            <a href="{{ url('/') }}" class="brand">
+                <span style="width: 80px; height: 80px">
+                    <img src="{{ asset('uprise-city/img/uprise-removebg-preview.png') }}" width="100%" height="100%"
+                        alt="" />
+                </span>
+            </a>
+
+            <nav aria-label="Primary">
+                <ul class="nav-main">
+                    <li><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="{{ route('about') }}" class="nav-link">About Us <span class="caret"></span></a>
+                        <div class="dropdown">
+                            <a href="{{ route('about') }}#history">History</a>
+                            <a href="{{ route('about') }}#mission">Mission</a>
+                            <a href="{{ route('about') }}#vision">Vision</a>
+                            <a href="{{ route('about') }}#values">Core Values</a>
+                        </div>
+                    </li>
+                    <li><a href="{{ route('contact') }}" class="nav-link">Contact Us</a></li>
+                    <li><a href="{{ route('officials') }}" class="nav-link">Officials</a></li>
+                    <li><a href="{{ route('programmes') }}" class="nav-link">Courses</a></li>
+                    <li class="has-dropdown">
+                        <a href="{{ route('speakers') }}" class="nav-link">Global Wealth Conference <span
+                                class="caret"></span></a>
+                        <div class="dropdown">
+                            <a href="{{ route('speakers') }}">Speakers</a>
+                            <a href="{{ route('tickets') }}">Tickets</a>
+                            <a href="{{ route('sponsors') }}">Sponsors</a>
+                        </div>
+                    </li>
+                    <li><a href="{{ route('gallery') }}" class="nav-link">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="{{ route('tickets') }}" class="btn btn-brass btn-sm">Get Tickets</a>
+                <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
         </div>
-      </div>
     </header>
 
     <section class="page-hero">
       <div class="container">
         <p class="breadcrumb">
-          <a href="index.html">Home</a> / <span>Contact Us</span>
+          <a href="{{url('/')}}">Home</a> / <span>Contact Us</span>
         </p>
         <h1>Do you have questions? We'd love to hear from you.</h1>
       </div>
