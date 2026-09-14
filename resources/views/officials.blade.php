@@ -70,7 +70,7 @@
 
       <div class="person-card" data-bio-trigger="bio-bsi">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/bsi2.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/bsi2.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Rev Bs'I Molokwu</h3>
@@ -82,7 +82,7 @@
 
       <div class="person-card" data-bio-trigger="bio-guo">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/guo2.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/guo2.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Chief Sir Godwin U. Okeke</h3>
@@ -94,7 +94,7 @@
 
       <div class="person-card" data-bio-trigger="bio-chinedu">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/chinedu.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/chinedu.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Chinedu Okwuosa</h3>
@@ -106,7 +106,7 @@
 
       <div class="person-card" data-bio-trigger="bio-precious">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/precious.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/precious.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Precious Ngozika-Oli Ochudo</h3>
@@ -118,7 +118,7 @@
 
       <div class="person-card" data-bio-trigger="bio-somto">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/somto.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/somto.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Somtochukwu Okafor Vincent</h3>
@@ -130,7 +130,7 @@
 
       <div class="person-card" data-bio-trigger="bio-amara">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/amara.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/amara.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Amara Molokwu</h3>
@@ -142,7 +142,7 @@
 
       <div class="person-card" data-bio-trigger="bio-livinus">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/livinus.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/livinus.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Livinus Chinonso</h3>
@@ -154,7 +154,7 @@
 
       <div class="person-card" data-bio-trigger="bio-collins">
         <div class="avatar">
-          <img src="{{assets('uprise-city/official_img/mypicture.jpg')}}" alt="">
+          <img src="{{asset('uprise-city/official_img/mypicture.jpg')}}" alt="">
         </div>
         <div class="person-body">
           <h3>Oguno Collins</h3>
@@ -179,7 +179,7 @@
 <div style="display:none;">
 
   <div id="bio-bsi">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/bsi2.jpg')}}" alt=""></div><div><h3 class="mb-0">Rev Bs'I Molokwu</h3><span class="modal-role">President</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/bsi2.jpg')}}" alt=""></div><div><h3 class="mb-0">Rev Bs'I Molokwu</h3><span class="modal-role">President</span></div></div>
     <div class="modal-body">
       <p>Bs'I is a kingdom leadership coach, brand strategist, entrepreneur, national transformation strategist, youth pastor and priest. He mentors, coaches, writes and speaks on kingdom matters, wealth creation, leadership, management, and personal and business development.</p>
       <h4>Areas of expertise</h4>
@@ -206,7 +206,7 @@
   </div>
 
   <div id="bio-guo">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/guo2.jpg')}}" alt=""></div><div><h3 class="mb-0">Chief Sir Godwin U. Okeke</h3><span class="modal-role">Grand Patron (OON)</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/guo2.jpg')}}" alt=""></div><div><h3 class="mb-0">Chief Sir Godwin U. Okeke</h3><span class="modal-role">Grand Patron (OON)</span></div></div>
     <div class="modal-body">
       <p>Sir (Dr.) Godwin Ubaka Okeke, popularly known as GUO, was born on Monday, 6 June 1949 at Iyi-Enu Hospital, Ogidi, Onitsha — the sixth of eight children. His father was a textile merchant and community leader in Onitsha; his mother was a wholesale foodstuff merchant and women's group leader.</p>
       <h4>Education</h4>
@@ -225,7 +225,7 @@
   </div>
 
   <div id="bio-chinedu">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/chinedu.jpg')}}" alt=""></div><div><h3 class="mb-0">Chinedu Okwuosa</h3><span class="modal-role">Executive Representative</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/chinedu.jpg')}}" alt=""></div><div><h3 class="mb-0">Chinedu Okwuosa</h3><span class="modal-role">Executive Representative</span></div></div>
     <div class="modal-body">
       <p>Chinedu C. Okwuosa ("Prince") is a highly self-motivated leader who has spent most of his life inspiring and building leadership in others. After graduating with honours from university, he spent five years exploring his passions — authoring three personal and career-development books and speaking at youth conferences across Nigeria.</p>
       <p>Ahead of releasing his first book, <em>Finding Your Career Path</em> (2016), he led a career-awareness campaign that took him to over 20 high schools and colleges in Eastern Nigeria, providing career guidance to students and undergraduates through customised development tools.</p>
@@ -235,7 +235,7 @@
   </div>
 
   <div id="bio-precious">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/precious.jpg')}}" alt=""></div><div><h3 class="mb-0">Precious Ngozika-Oli Ochudo</h3><span class="modal-role">Strategic &amp; Organisational Manager</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/precious.jpg')}}" alt=""></div><div><h3 class="mb-0">Precious Ngozika-Oli Ochudo</h3><span class="modal-role">Strategic &amp; Organisational Manager</span></div></div>
     <div class="modal-body">
       <p>Precious Ngozika Ibeazor is a dynamic digital marketing educator, public speaking coach and exceptional master of ceremonies, driven by a mission to help professionals and entrepreneurs amplify their voices, sell with clarity, and build bold, bankable brands.</p>
       <p>She serves as Chief Growth Marketing Officer at Coachivate, a global coaching and capacity-development platform founded by Coach FAA, a Gallup Certified Strengths Coach and Global HR Leader — playing a pivotal role in brand positioning and campaign strategy for high-impact programmes such as EPIC Mandate.</p>
@@ -245,7 +245,7 @@
   </div>
 
   <div id="bio-somto">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/somto.jpg')}}" alt=""></div><div><h3 class="mb-0">Somtochukwu Okafor Vincent</h3><span class="modal-role">Business Administrator</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/somto.jpg')}}" alt=""></div><div><h3 class="mb-0">Somtochukwu Okafor Vincent</h3><span class="modal-role">Business Administrator</span></div></div>
     <div class="modal-body">
       <p>Somtochukwu Okafor Vincent, ESV, is an Estate Surveyor and CEO of Perfect Home Services — a highly accomplished and visionary leader with extensive experience in real estate, interior design, and community development.</p>
       <h4>Expertise</h4>
@@ -270,7 +270,7 @@
   </div>
 
   <div id="bio-amara">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/amara.jpg')}}" alt=""></div><div><h3 class="mb-0">Amara Molokwu</h3><span class="modal-role">Analyst</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/amara.jpg')}}" alt=""></div><div><h3 class="mb-0">Amara Molokwu</h3><span class="modal-role">Analyst</span></div></div>
     <div class="modal-body">
       <p>Obianuju Amara Molokwu is a passionate woman driven by purpose, structure and spiritual clarity. She helps individuals, entrepreneurs and business owners simplify their work and strengthen their systems.</p>
       <p>She holds a degree in English and Literary Studies from the Federal University of Wukari, Taraba State, and currently works as a school administrator overseeing operations and records.</p>
@@ -279,7 +279,7 @@
   </div>
 
   <div id="bio-livinus">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/livinus.jpg')}}" alt=""></div><div><h3 class="mb-0">Livinus Chinonso</h3><span class="modal-role">Director of Operations</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/livinus.jpg')}}" alt=""></div><div><h3 class="mb-0">Livinus Chinonso</h3><span class="modal-role">Director of Operations</span></div></div>
     <div class="modal-body">
       <p>Livinus Chinonso is an accountant by profession, a brand strategist, business coach and a professional musician.</p>
       <h4>Areas of expertise</h4>
@@ -306,7 +306,7 @@
   </div>
 
   <div id="bio-collins">
-    <div class="modal-head"><div class="avatar"><img src="{{assets('uprise-city/official_img/mypicture.jpg')}}" alt=""></div><div><h3 class="mb-0">Oguno Collins</h3><span class="modal-role">Developer &amp; Programmer and Car Dealer</span></div></div>
+    <div class="modal-head"><div class="avatar"><img src="{{asset('uprise-city/official_img/mypicture.jpg')}}" alt=""></div><div><h3 class="mb-0">Oguno Collins</h3><span class="modal-role">Developer &amp; Programmer and Car Dealer</span></div></div>
     <div class="modal-body">
       <p>Oguno Collins is a passionate software and web developer with strong expertise in building dynamic, user-focused web applications. His journey began at Kodex Africa, where he honed his skills in full-stack development — mastering front-end technologies like HTML, CSS, Bootstrap, JavaScript and React, and expanding into back-end development with Laravel and Python.</p>
       <p>Beyond development, he has a strong passion for teaching and mentoring — starting as a Web Development Tutor at Digital Dreams Limited, and continuing that work today at Solotech.ai Limited, helping students build strong foundations in modern web technologies.</p>
