@@ -153,7 +153,7 @@
         </div>
          <div class="schedule-row">
           <div class="schedule-time">1:15 PM – 3:00 PM</div>
-          <div class="schedule-what">Finial Sessions</div>
+          <div class="schedule-what">Final Sessions</div>
         </div>
          <div class="schedule-row">
           <div class="schedule-time">3:00 PM – 3:30 PM</div>

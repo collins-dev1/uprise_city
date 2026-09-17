@@ -194,7 +194,7 @@
                     </p>
                 </div>
                 <div style="height: 400px;">
-                    <img src="{{ asset('uprise-city/img/GLOBAL2026.jpeg') }}" width="100%" height="100%"
+                    <img src="{{ asset('uprise-city/img/jamie&rev_flyer.jpeg') }}" width="100%" height="100%"
                         alt="" />
                 </div>
             </div>

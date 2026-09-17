@@ -352,20 +352,24 @@
             <div class="modal-head">
                 <div class="avatar"><span>EM</span></div>
                 <div>
-                    <h3 class="mb-0">Pastor Elisha Mamman</h3><span class="modal-role">Speaker &amp; Trainer</span>
+                    <h3 class="mb-0">Chief Sir Godwin U. Okeke</h3><span class="modal-role">Founder of GUO</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Elisha Mamman is a John C. Maxwell-certified speaker and trainer with a core emphasis on leadership,
-                    mindset, kingdom finance and goal setting — recognised as one of Nigeria's most sought-after
-                    inspirational speakers.</p>
-                <p>He is the founder of Elisha Mamman International and convener of The Winning Mindset, a fast-growing
-                    motivational platform in Nigeria that has reached thousands across seven states. He is married to
-                    Chinonso Mamman, CEO of Noneli Crafty Cakes, and together they have two children.</p>
+                <p>Sir (Dr.) Godwin Ubaka Okeke, popularly known as GUO, was born on Monday, 6 June 1949 at Iyi-Enu
+                    Hospital, Ogidi, Onitsha — the sixth of eight children. His father was a textile merchant and
+                    community leader in Onitsha; his mother was a wholesale foodstuff merchant and women's group leader.
+                </p>
+                <p>GUO began his education in 1955 at Central School, Onitsha, and completed secondary school at
+                    Community Grammar School, Nnobi, in 1963. He later underwent "Man O' War" leadership training in
+                    preparation for national service — a course that helped prepare him for the Nigerian Civil War and
+                    for navigating the turbulent waters of business.</p>
+                <P>In 1976, GUO married Lady (Dr.) Patricia Obiageli Okeke, a retired civil servant and Proprietress of
+                    Supreme Knowledge Schools, Nkpor, Onitsha.</P>
             </div>
         </div>
 
-        <div id="sp-charles">
+        {{-- <div id="sp-charles">
             <div class="modal-head">
                 <div class="avatar"><span>CA</span></div>
                 <div>
@@ -382,7 +386,7 @@
                     leaders and business people, and is proprietor of Petra Christian Academy in Nigeria. He is also an
                     experienced marriage counsellor.</p>
             </div>
-        </div>
+        </div> --}}
 
         <div id="sp-ceo">
             <div class="modal-head">
@@ -433,7 +437,7 @@
             </div>
         </div>
 
-        <div id="sp-prof">
+        {{-- <div id="sp-prof">
             <div class="modal-head">
                 <div class="avatar"><span>SS</span></div>
                 <div>
@@ -448,9 +452,9 @@
                     Federal University of Technology, and international study at Rome Business School (Italy) and
                     European Global School University (Paris).</p>
             </div>
-        </div>
+        </div> --}}
 
-        <div id="sp-mike">
+        {{-- <div id="sp-mike">
             <div class="modal-head">
                 <div class="avatar"><span>MO</span></div>
                 <div>
@@ -465,9 +469,9 @@
                     in 2021. He is widely recognised for his radio and tele-evangelism ministry, and holds an M.A. in
                     New Testament Studies alongside degrees in Theology and Religion and Philosophy.</p>
             </div>
-        </div>
+        </div> --}}
 
-        <div id="sp-val">
+        {{-- <div id="sp-val">
             <div class="modal-head">
                 <div class="avatar"><span>AV</span></div>
                 <div>
@@ -482,9 +486,9 @@
                     books and coaching programmes have inspired people to lead with purpose and communicate effectively.
                 </p>
             </div>
-        </div>
+        </div> --}}
 
-        <div id="sp-okoye">
+        {{-- <div id="sp-okoye">
             <div class="modal-head">
                 <div class="avatar"><span>OO</span></div>
                 <div>
@@ -511,7 +515,7 @@
                     <li>Diamond ICON Award, Diamond Flavour</li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
 
         <div id="sp-ifeoma">
             <div class="modal-head">
