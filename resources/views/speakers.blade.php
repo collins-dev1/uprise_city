@@ -16,8 +16,7 @@
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
                 <span style="width: 80px; height: 80px">
-                    <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%" height="100%"
-                        alt="" />
+                    <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%" height="100%" alt="" />
                 </span>
             </a>
 
@@ -60,7 +59,7 @@
 
     <section class="page-hero">
         <div class="container">
-            <p class="breadcrumb"><a href="{{url('/')}}">Home</a> / <span>Speakers</span></p>
+            <p class="breadcrumb"><a href="{{ url('/') }}">Home</a> / <span>Speakers</span></p>
             <h1>Global Wealth Conference Speakers</h1>
             <p style="max-width:60ch; color:rgba(247,244,236,.7);">Our lineup features visionary leaders, industry
                 experts and changemakers from Nigeria and beyond. Tap any card to read a full profile.</p>
@@ -78,7 +77,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-bsi">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/bsi2.jpg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/bsi2.jpg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Rev Bs'I Molokwu</h3>
@@ -91,7 +90,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-peter">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/spekaer1.jpg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/spekaer1.jpg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Dr Jamie Pajoel</h3>
@@ -103,7 +102,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-elisha">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/guo2.jpg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/guo2.jpg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Chief Dr Sir Godwin U. Okeke</h3>
@@ -116,7 +115,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-charles">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker2.jpg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker2.jpg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Hon Dr Tony Somtochukwu Udeze</h3>
@@ -130,12 +129,12 @@
 
                 <div class="person-card" data-bio-trigger="sp-ceo">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker3.png')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker3.png') }}" alt="">
                     </div>
                     <div class="person-body">
-                        <h3>Pastor Akachi Nwoke</h3>
-                        <span class="person-role">Social Entrepreneur &amp; Analyst</span>
-                        <p>Executive Director, Leadership Entrepreneurship and Advocacy Network; public affairs analyst.
+                        <h3>PASTOR DR. AKACHI NWOKE</h3>
+                        <span class="person-role">LEAD PASTOR, THE AFTERNOON CHURCH</span>
+                        <p>ENTREPRENEUR | BUSINESS LEADER | LEADERSHIP MENTOR | HUMANITARIAN
                         </p>
                         <span class="read-more">Read full profile</span>
                     </div>
@@ -143,7 +142,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-prof">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker4.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker4.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Pastor Sam Obiorah</h3>
@@ -155,7 +154,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-mike">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker5.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker5.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Hon Ifeoma Mimi Azikiwe</h3>
@@ -168,7 +167,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-val">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker6.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker6.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Sir Chinedu Nwonu</h3>
@@ -180,7 +179,7 @@
 
                 <div class="person-card" data-bio-trigger="sp-ifeoma">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker7.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker7.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Pastor Mrs Ifeoma Abayol</h3>
@@ -192,20 +191,19 @@
 
                 <div class="person-card" data-bio-trigger="sp-okoye">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker8.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker8.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Pastor Uzor Jonathan</h3>
-                        <span class="person-role">Ophthalmologist &amp; Educator</span>
-                        <p>Professor of Ophthalmology, University of Nigeria, and advocate for accessible rural eye
-                            care.</p>
+                        <span class="person-role">Founder and Senior Pastor of LoveCity Gospel Center</span>
+                        <p>A growing minister with multiple Expressions across Nigeria.</p>
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
 
                 <div class="person-card" data-bio-trigger="sp-uche">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/speaker9.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/speaker9.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Pastor Francis Udeh</h3>
@@ -227,7 +225,7 @@
             <div class="people-grid" style="grid-template-columns:repeat(2,1fr); max-width:1500px;">
                 <div class="person-card" data-bio-trigger="sp-nkem">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/official_img/precious.jpg')}}" alt="">
+                        <img src="{{ asset('uprise-city/official_img/precious.jpg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>⁠Precious Ngozika-Oli Ochudo</h3>
@@ -237,7 +235,7 @@
                 </div>
                 <div class="person-card" data-bio-trigger="sp-linda">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/pane1.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/pane1.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>IzzySax</h3>
@@ -247,7 +245,7 @@
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/pane2.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/pane2.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>⁠Gwacham Chidiogo</h3>
@@ -257,7 +255,7 @@
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/pane3.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/pane3.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Ogechukwu Ufoeze Odogwu</h3>
@@ -267,7 +265,7 @@
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
                     <div class="avatar">
-                        <img src="{{asset('uprise-city/eventspeaker_img/pane5.jpeg')}}" alt="">
+                        <img src="{{ asset('uprise-city/eventspeaker_img/pane5.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Rev Nonso Anene</h3>
@@ -284,7 +282,7 @@
             <h2 style="max-width:26ch; margin:0 auto 12px;">Ready to learn from this lineup in person?</h2>
             <p class="lede mx-auto" style="margin-bottom:20px;">Access to all sessions is included with every ticket
                 tier.</p>
-            <a href="{{route('tickets')}}" class="btn btn-brass">View Tickets</a>
+            <a href="{{ route('tickets') }}" class="btn btn-brass">View Tickets</a>
         </div>
     </section>
 
@@ -312,21 +310,41 @@
             <div class="modal-head">
                 <div class="avatar"><span>PO</span></div>
                 <div>
-                    <h3 class="mb-0">Peter Gregory Obi, CON</h3><span class="modal-role">Businessman &amp;
-                        Politician</span>
+                    <h3 class="mb-0">DR. JAMIE PAJOEL</h3><span class="modal-role">Founder and Global
+                        President</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Peter Gregory Obi CON (born 19 July 1961 in Onitsha) is a Nigerian businessman and politician who
-                    served as Governor of Anambra State across three separate terms between 2006 and 2014. In May 2022
-                    he became the Labour Party's candidate for President of Nigeria in the 2023 election.</p>
-                <p>He graduated from the University of Nigeria in 1984 and entered business and banking, eventually
-                    becoming chairman of Fidelity Bank before moving into politics. His terms as governor were marked by
-                    improvements in state finances, education and healthcare.</p>
-                <h4>Education</h4>
-                <p>Obi attended Christ the King College, Onitsha, and the University of Nigeria (B.A. Hons, Philosophy,
-                    1984). He has also completed executive programmes at Harvard Business School, the London School of
-                    Economics, Columbia Business School, Lagos Business School and other leading institutions.</p>
+                <p>According to Favikon report, Dr. Jamie Pajoel was ranked among the “Top 20 Leadership Influencers in
+                    Canada (2025) for his growing influence on leadership pracOce in Canada and across the globe.</p>
+                <p>The recogniOon highlights Dr. Pajoel’s results-driven leadership philosophy: Leadership is proven in
+                    small, repeatable behaviors—not slogans.</p>
+                <p>Dr. Jamie Pajoel is a global leadership consultant, speaker and trainer, known for converOng
+                    leadership theory into on-the-job behaviors. He teaches pracOcal rouOnes that help leaders deliver
+                    results and translates complex leadership theory into a compact set of high-leverage habits for
+                    Monday-morning use—simple, transferable, and pracOcal.</p>
+                <p>Dr Jamie Pajoel has over 25 years of leadership and management consulOng experience, in designing,
+                    implemenOng, and addressing the growing leadership competency skill gap among professionals(a
+                    criOcal challenge impacOng Canadian workforce efficiency and economic development). Hence, his
+                    approach offers innovaOve methods to leadership and includes an in- depth knowledge on leading
+                    organizaOons and change.</p>
+                <p>Dr. Pajoel’s career highlights include 1,000+ speeches delivered globally and training more than
+                    100,000 professionals across the globe.</p>
+                <p>Dr. Jamie Pajoel is founder, Workplace Leadership InsOtute, Canada- A leadership organizaOon aimed at
+                    equipping C-suite ExecuOves, Mid-level Managers, and emerging leaders, with the relevant leadership
+                    skills needed to navigate workplace challenges, enhance performance, develop leadership
+                    competencies, and drive organizaOonal growth.</p>
+                <p>Dr. Jamie’s global influence extends beyond borders, as he has been instrumental in bridging
+                    workplace leadership gap in Canada and across the globe. His work has been recognized with the State
+                    of Michigan Leadership Award and an African Union honor (2014). In 2018, he was invited to President
+                    Bill Clinton’s program, in acknowledgment of his contribuOon to leadership
+                    and enterprise development. He also holds an honorary doctorate from Myles Leadership University.
+                </p>
+                <p>He is the host, Workplace Leadership Conference, Canada- A global event plaborm for high-level
+                    knowledge-sharing, networking and global recogniOon for corporate execuOves and workplace
+                    professionals from diverse industries. He is also the author of ExecuOng with Excellence, Becer
+                    Managers for Becer Workplace, Leading OrganizaOons and Change, and Leadership Guidelines for
+                    Emerging Leaders.</p>
             </div>
         </div>
 
@@ -370,18 +388,48 @@
             <div class="modal-head">
                 <div class="avatar"><span>CE</span></div>
                 <div>
-                    <h3 class="mb-0">Chukwuma Ephraim Okenwa</h3><span class="modal-role">Social Entrepreneur &amp;
-                        Analyst</span>
+                    <h3 class="mb-0">PASTOR DR. AKACHI NWOKE</h3><span class="modal-role">LEAD PASTOR, THE AFTERNOON
+                        CHURCH</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Chukwuma Ephraim Okenwa — fondly known as CEO — is a social entrepreneur, school administrator and
-                    public affairs analyst, and Executive Director of the Leadership Entrepreneurship and Advocacy
-                    Network.</p>
-                <p>He holds a postgraduate diploma in Multilateral Diplomacy from the United Nations Institute of
-                    Training and Research and a Master's in Anti-Corruption and Diplomacy from the International
-                    Anti-Corruption Academy, Laxenburg. He has twice been nominated as a YALI Network influencer in
-                    Nigeria and served as a Board Member of the Enugu State Post Primary Schools Management Board.</p>
+                <p>Pastor Dr. Akachi Nwoke is a dynamic preacher, visionary leader, accomplished entrepreneur,
+                    leadership mentor, and humanitarian whose influence spans ministry, business, innovation, education,
+                    and social transformation. He is widely recognized for raising purpose-driven leaders while
+                    demonstrating that faith, excellence, and enterprise can work together to transform lives,
+                    communities, and nations.</p>
+                <p>Born on March 22, 1990, in Aba, Abia State, Pastor Dr. Akachi Nwoke hails from Amaocha Afara in
+                    Mbaitolu Local Government Area of Imo State. He earned a Bachelor of Science degree in Agriculture
+                    from the Federal University of Technology, Owerri, and later obtained a Doctorate in Theology from
+                    Teamwork Bible College in 2019, reflecting both academic excellence and a deep commitment to
+                    spiritual leadership.</p>
+                <p>As the Lead Pastor of The Afternoon Church, he leads a thriving ministry devoted to biblical
+                    teaching, discipleship, leadership development, and societal transformation. Since founding the
+                    ministry in 2019, Pastor Akachi has inspired thousands to pursue purpose, lead with integrity, and
+                    become agents of change in every sphere of influence.</p>
+                <p>Beyond the pulpit, Pastor Akachi is a respected entrepreneur and business leader with interests
+                    spanning technology, real estate, financial technology, education, travel, and social enterprise. He
+                    is the visionary behind K-Mobile, a fast-growing African technology brand producing affordable
+                    smartphones, tablets, smart devices, and consumer electronics designed to meet the needs of emerging
+                    markets. His entrepreneurial journey reflects his passion for innovation, value creation, and
+                    building globally competitive African brands.</p>
+                <p>His commitment to nation-building extends far beyond business. Through initiatives such as The Free
+                    School, The Free Hospital, The Free Restaurant, The Rehab Project, Digitize Africa, The
+                    Undergraduate Scholarship Project, Emerald Institute, Afrikaan Homes, and Trans Emerald Travels, he
+                    has empowered thousands through education, healthcare, entrepreneurship, digital skills, housing,
+                    and humanitarian support. His vision is to raise a generation of transformed African leaders
+                    equipped spiritually, intellectually, and economically.</p>
+                <p>Pastor Akachi is also the convener of the African Youth Conference, a movement that has impacted
+                    thousands of young people through spiritual revival, leadership development, entrepreneurship, and
+                    practical empowerment. His passion for youth development continues to shape lives across Nigeria and
+                    beyond.</p>
+                <p>Recognized internationally for his contributions to peace, leadership, and human development, Pastor
+                    Dr. Akachi Nwoke serves as a United Nations Peace Ambassador and ECOWAS Youth Ambassador, earning
+                    numerous local and international recognitions for his outstanding service.</p>
+                <p>At the Global Wealth Conference 2026, Pastor Dr. Akachi Nwoke brings a unique blend of spiritual
+                    wisdom, entrepreneurial excellence, humanitarian leadership, and practical insight. His message
+                    challenges participants to build lives, businesses, and institutions that create lasting value while
+                    advancing God's purpose and transforming society.</p>
             </div>
         </div>
 
@@ -487,18 +535,22 @@
             <div class="modal-head">
                 <div class="avatar"><span>UO</span></div>
                 <div>
-                    <h3 class="mb-0">Uchenna Onwuamaegbu-Ugwu</h3><span class="modal-role">STEM Education
-                        Advocate</span>
+                    <h3 class="mb-0">Pastor Francis Udeh</h3><span class="modal-role">Founder and Senior Pastor of
+                        LoveCity Gospel Center.</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Uchenna Onwuamaegbu-Ugwu is the founder of Edufun Technik, a social enterprise delivering STEM
-                    education to children and youth aged 3–18 in underprivileged communities across Eastern Nigeria —
-                    ensuring at least 60% of students reached are girls.</p>
-                <p>Since 2014, Edufun Technik has delivered over 500 classes of STEM curriculum, trained 1,200 pupils
-                    and reached 2,100 students through after-school workshops and in-class activities, alongside
-                    consulting for schools on STEM and robotics curriculum design. Uchenna holds a degree in Psychology
-                    from Nnamdi Azikiwe University.</p>
+                <p>Pastor Francis Udeh is the founder and Senior Pastor of LoveCity Gospel Center, a growing ministry
+                    with multiple Expressions across Nigeria. A medical laboratory scientist by profession. He is also
+                    the Principal Consultant at Church Growth Consult, where he helps churches and ministries build
+                    healthy leadership, sustainable growth, and organizational excellence.</p>
+                <p>A respected leadership strategist, Bible teacher, and conference speaker, Pastor Francis is known for
+                    communicating timeless biblical truths with depth, clarity, and practical relevance. His ministry
+                    has equipped pastors and leaders to build thriving churches, develop transformational leaders, and
+                    maximize Kingdom impact.</p>
+                <p>Driven by a passion to see the local church flourish, Pastor Francis continues to raise market place
+                    leaders who influence generations with excellence, and lasting significance.</p>
+                <p>He is Happily married to Pastor Ify Udeh and they are Blessed with three beautiful Daughters.</p>
             </div>
         </div>
 
@@ -561,8 +613,8 @@
                 <div class="footer-brand">
                     <a href="{{ url('/') }}" class="brand">
                         <span style="width: 80px; height: 80px">
-                            <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%"
-                                height="100%" alt="" />
+                            <img src="{{ asset('uprise-city/img/uprise.jpg') }}" width="100%" height="100%"
+                                alt="" />
                         </span>
                     </a>
                     <p>
