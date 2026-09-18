@@ -256,7 +256,7 @@
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
-                <div class="person-card" data-bio-trigger="sp-somto2">
+                <div class="person-card" data-bio-trigger="sp-somt">
                     <div class="avatar">
                         <img src="{{ asset('uprise-city/eventspeaker_img/pane3.jpeg') }}" alt="">
                     </div>
@@ -266,7 +266,7 @@
                         <p>Joining the Global Wealth Conference panel discussion.</p>
                     </div>
                 </div>
-                <div class="person-card" data-bio-trigger="sp-somto2">
+                <div class="person-card" data-bio-trigger="sp-somto">
                     <div class="avatar">
                         <img src="{{ asset('uprise-city/eventspeaker_img/pane5.jpeg') }}" alt="">
                     </div>
