@@ -242,6 +242,7 @@
                         <h3>Izuchukwu Emmanuel (IzzySax)</h3>
                         <span class="person-role">(Comic and Music Break)</span>
                         <p>Saxophonist and comedian Joining the Global Wealth Conference panel discussion.</p>
+                        <span class="read-more">Read full profile</span>
                     </div>
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
@@ -252,6 +253,7 @@
                         <h3>⁠Gwacham Chidiogo</h3>
                         <span class="person-role">(Red Carpet Host)</span>
                         <p>Event host, red carpet anchor, public speaker, and media</p>
+                        <span class="read-more">Read full profile</span>
                     </div>
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
