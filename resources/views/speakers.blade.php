@@ -164,14 +164,16 @@
                     </div>
                 </div>
 
-                <div class="person-card" data-bio-trigger="sp-val">
+                <div class="person-card" data-bio-trigger="sp-chinedu">
                     <div class="avatar">
                         <img src="{{ asset('uprise-city/eventspeaker_img/speaker6.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>Sir Chinedu Nwonu</h3>
-                        <span class="person-role">Professional Spanning Management consultant, Banking, Human resource management</span>
-                        <p>Chinedu is a multidisciplinary professional with expertise spanning management consulting, banking, human resource management, sales & marketing and enterprise management.</p>
+                        <span class="person-role">Professional Spanning Management consultant, Banking, Human resource
+                            management</span>
+                        <p>Chinedu is a multidisciplinary professional with expertise spanning management consulting,
+                            banking, human resource management, sales & marketing and enterprise management.</p>
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
@@ -232,14 +234,14 @@
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
-                <div class="person-card" data-bio-trigger="sp-linda">
+                <div class="person-card" data-bio-trigger="sp-sax">
                     <div class="avatar">
                         <img src="{{ asset('uprise-city/eventspeaker_img/pane1.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
-                        <h3>IzzySax</h3>
+                        <h3>Izuchukwu Emmanuel (IzzySax)</h3>
                         <span class="person-role">(Comic and Music Break)</span>
-                        <p>Joining the Global Wealth Conference panel discussion.</p>
+                        <p>Saxophonist and comedian Joining the Global Wealth Conference panel discussion.</p>
                     </div>
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
@@ -249,7 +251,7 @@
                     <div class="person-body">
                         <h3>⁠Gwacham Chidiogo</h3>
                         <span class="person-role">(Red Carpet Host)</span>
-                        <p>Joining the Global Wealth Conference panel discussion.</p>
+                        <p>Event host, red carpet anchor, public speaker, and media</p>
                     </div>
                 </div>
                 <div class="person-card" data-bio-trigger="sp-somto2">
@@ -307,7 +309,7 @@
 
         <div id="sp-peter">
             <div class="modal-head">
-                <div class="avatar"><span>PO</span></div>
+                <div class="avatar"><span>JP</span></div>
                 <div>
                     <h3 class="mb-0">DR. JAMIE PAJOEL</h3><span class="modal-role">Founder and Global
                         President</span>
@@ -349,7 +351,7 @@
 
         <div id="sp-elisha">
             <div class="modal-head">
-                <div class="avatar"><span>EM</span></div>
+                <div class="avatar"><span>GU</span></div>
                 <div>
                     <h3 class="mb-0">Chief Sir Godwin U. Okeke</h3><span class="modal-role">Founder of GUO</span>
                 </div>
@@ -370,7 +372,7 @@
 
         <div id="sp-precious">
             <div class="modal-head">
-                <div class="avatar"><span>CA</span></div>
+                <div class="avatar"><span>PN</span></div>
                 <div>
                     <h3 class="mb-0">Precious Ngozika Ibeazor</h3><span class="modal-role">Growth Marketing
                         Consultant and founder of Zikore Consulting Limited</span>
@@ -396,7 +398,7 @@
 
         <div id="sp-ceo">
             <div class="modal-head">
-                <div class="avatar"><span>CE</span></div>
+                <div class="avatar"><span>AN</span></div>
                 <div>
                     <h3 class="mb-0">PASTOR DR. AKACHI NWOKE</h3><span class="modal-role">LEAD PASTOR, THE AFTERNOON
                         CHURCH</span>
@@ -477,26 +479,30 @@
             </div>
         </div> --}}
 
-        {{-- <div id="sp-val">
+        <div id="sp-sax">
             <div class="modal-head">
-                <div class="avatar"><span>AV</span></div>
+                <div class="avatar"><span>IE</span></div>
                 <div>
-                    <h3 class="mb-0">Akpoveta Valentine</h3><span class="modal-role">Author &amp; Life Coach</span>
+                    <h3 class="mb-0">Izuchukwu Emmanuel (Izzysax)</h3><span class="modal-role">saxophonist and
+                        comedian</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Akpoveta Valentine is a renowned author, life coach and serial entrepreneur with over two decades of
-                    experience empowering individuals and organisations to unlock their full potential.</p>
-                <p>CEO of Montage Hub Africa and Senior Partner at On This Rock Marketing LLC (USA), Valentine combines
-                    heightened awareness, communication and actionable strategy to drive transformative success. His
-                    books and coaching programmes have inspired people to lead with purpose and communicate effectively.
+                <p>Izuchukwu Emmanuel (Izzysax), is a saxophonist and comedian who blends music and comedy to create
+                    experiences filled with cathartic laughter and restorative music.
                 </p>
-            </div>
-        </div> --}}
+                <p>Through his performances, he seeks to uplift spirits, create meaningful comic relief, and leave
+                    audiences refreshed, inspired, and entertained.
 
-        <div id="sp-okoye">
+                </p>
+                <p>He is also a professional Brand designer, brings your ideas into creative designs that attracts and
+                    generates sales</p>
+            </div>
+        </div>
+
+        <div id="sp-chinedu">
             <div class="modal-head">
-                <div class="avatar"><span>OO</span></div>
+                <div class="avatar"><span>CN</span></div>
                 <div>
                     <h3 class="mb-0">Sir Chinedu Nwonu</h3><span class="modal-role"></span>
                 </div>
@@ -561,7 +567,7 @@
 
         <div id="sp-uche">
             <div class="modal-head">
-                <div class="avatar"><span>UO</span></div>
+                <div class="avatar"><span>FU</span></div>
                 <div>
                     <h3 class="mb-0">Pastor Francis Udeh</h3><span class="modal-role">Founder and Senior Pastor of
                         LoveCity Gospel Center.</span>
@@ -582,7 +588,7 @@
             </div>
         </div>
 
-        <div id="sp-nkem">
+        {{-- <div id="sp-nkem">
             <div class="modal-head">
                 <div class="avatar"><span>NO</span></div>
                 <div>
@@ -593,9 +599,9 @@
                 <p>Dr Nkem Okeke joins the Global Wealth Conference panel discussion, bringing expert perspective to the
                     conversation.</p>
             </div>
-        </div>
+        </div> --}}
 
-        <div id="sp-linda">
+        {{-- <div id="sp-linda">
             <div class="modal-head">
                 <div class="avatar"><span>LN</span></div>
                 <div>
@@ -611,21 +617,28 @@
                     channels and production studios. In 2020, she was named among Leading Ladies Africa's 100 Most
                     Influential Women for her child-advocacy work.</p>
             </div>
-        </div>
+        </div> --}}
 
         <div id="sp-somto2">
             <div class="modal-head">
-                <div class="avatar"><span>SO</span></div>
+                <div class="avatar"><span>GC</span></div>
                 <div>
-                    <h3 class="mb-0">Somtochukwu Okafor Vincent</h3><span class="modal-role">Business
-                        Administrator</span>
+                    <h3 class="mb-0">Gwacham Chidiogo</h3><span class="modal-role">event host, red carpet anchor,
+                        public speaker, and media</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Somtochukwu Okafor Vincent, ESV, is an Estate Surveyor and CEO of Perfect Home Services, a
-                    multidimensional real estate and interior design firm. He has trained numerous individuals in
-                    interior design through Perfect Home School and holds qualifications in Estate Management from the
-                    Federal Polytechnic and the University of Nigeria, Enugu Campus.</p>
+                <p>Gwacham Chidiogo is a dynamic event host, red carpet anchor, public speaker, and media personality
+                    passionate about creating memorable experiences through engaging conversations and impactful
+                    storytelling.</p>
+                <p>Gwacham has served as a red carpet host and event anchor for reputable platforms.
+                </p>
+                <p>Known for her warmth, professionalism, vibrant energy, and ability to connect with diverse audiences,
+                    she brings life, elegance, and excitement to every event she hosts.
+                </p>
+                <p>Beyond media and hosting, Gwacham is the Founder of Blossom Girls Africa and Convener of the Blossom
+                    Girls Conference, initiatives dedicated to empowering girls with confidence, purpose, and
+                    leadership.</p>
             </div>
         </div>
 
