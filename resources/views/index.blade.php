@@ -24,7 +24,7 @@ window.smartsupp||(function(d) {
 
 </head>
 
-<body style="overflow-x: hidden">
+<body>
     <header class="site-header">
         <div class="nav-wrap">
             <a href="{{ url('/') }}" class="brand">
