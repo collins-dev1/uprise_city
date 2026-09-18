@@ -170,8 +170,8 @@
                     </div>
                     <div class="person-body">
                         <h3>Sir Chinedu Nwonu</h3>
-                        <span class="person-role">Author &amp; Life Coach</span>
-                        <p>Serial entrepreneur and CEO of Montage Hub Africa, coaching people to lead with purpose.</p>
+                        <span class="person-role">Professional Spanning Management consultant, Banking, Human resource management</span>
+                        <p>Chinedu is a multidisciplinary professional with expertise spanning management consulting, banking, human resource management, sales & marketing and enterprise management.</p>
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="person-body">
                         <h3>Pastor Uzor Jonathan</h3>
-                        <span class="person-role">Founder and Senior Pastor of LoveCity Gospel Center</span>
+                        <span class="person-role">Founder and Senior Pastor of Wordspring Global Assembly</span>
                         <p>A growing minister with multiple Expressions across Nigeria.</p>
                         <span class="read-more">Read full profile</span>
                     </div>
@@ -206,9 +206,8 @@
                     </div>
                     <div class="person-body">
                         <h3>Pastor Francis Udeh</h3>
-                        <span class="person-role">STEM Education Advocate</span>
-                        <p>Founder of Edufun Technik, bringing STEM education to underserved communities in Eastern
-                            Nigeria.</p>
+                        <span class="person-role">Founder and Senior Pastor of LoveCity Gospel Center</span>
+                        <p>A growing minister with multiple Expressions across Nigeria.</p>
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
@@ -222,14 +221,15 @@
             <span class="kicker">Panel Discussion</span>
             <h2 style="margin-bottom:40px;">Our Panelists and Officials</h2>
             <div class="people-grid" style="grid-template-columns:repeat(2,1fr); max-width:1500px;">
-                <div class="person-card" data-bio-trigger="sp-nkem">
+                <div class="person-card" data-bio-trigger="sp-precious">
                     <div class="avatar">
                         <img src="{{ asset('uprise-city/official_img/precious.jpg') }}" alt="">
                     </div>
                     <div class="person-body">
                         <h3>⁠Precious Ngozika-Oli Ochudo</h3>
                         <span class="person-role">Panelist</span>
-                        <p>Joining the Global Wealth Conference panel discussion.</p>
+                        <p>Growth Marketing Consultant and founder of Zikore Consulting Limited.</p>
+                        <span class="read-more">Read full profile</span>
                     </div>
                 </div>
                 <div class="person-card" data-bio-trigger="sp-linda">
@@ -368,24 +368,31 @@
             </div>
         </div>
 
-        {{-- <div id="sp-charles">
+        <div id="sp-precious">
             <div class="modal-head">
                 <div class="avatar"><span>CA</span></div>
                 <div>
-                    <h3 class="mb-0">Dr Charles Apoki</h3><span class="modal-role">Clergy &amp; Conference
-                        Speaker</span>
+                    <h3 class="mb-0">Precious Ngozika Ibeazor</h3><span class="modal-role">Growth Marketing
+                        Consultant and founder of Zikore Consulting Limited</span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Dr Charles Apoki is a 1984 graduate of the College of Medicine, University of Ibadan, and holds a
-                    Master's degree in Public Administration. He is an ordained clergyman and international conference
-                    speaker across several denominations, and a resource person to companies and organisations across
-                    Africa and Europe.</p>
-                <p>He organises the "Word and Wisdom Conference," a capacity-building event that draws pastors, church
-                    leaders and business people, and is proprietor of Petra Christian Academy in Nigeria. He is also an
-                    experienced marriage counsellor.</p>
+                <p>Precious Ngozika Ibeazor is a Growth Marketing Consultant and founder of Zikore Consulting Limited,
+                    with over seven years of experience helping entrepreneurs build personal brands and scale their
+                    online businesses.
+                </p>
+                <p>Through Zikore, she has partnered with clients across Nigeria and beyond; driving results through
+                    strategic content, email marketing, and brand positioning.
+                </p>
+                <p>PN is also the founder of the Online Business Builder Academy (OBBA), where she trains entrepreneurs
+                    in social media marketing, and funnel building to help them grow sustainable digital businesses.
+                </p>
+                <p>Beyond marketing, PN is passionate about personal development and purpose. She speaks widely on
+                    personal branding, growth, and intentional living, blending practical business strategy with a
+                    deeper conversation about identity and purpose. She has been featured in various media outlets and
+                    has spoken at multiple events and conferences on these themes.</p>
             </div>
-        </div> --}}
+        </div>
 
         <div id="sp-ceo">
             <div class="modal-head">
@@ -487,34 +494,52 @@
             </div>
         </div> --}}
 
-        {{-- <div id="sp-okoye">
+        <div id="sp-okoye">
             <div class="modal-head">
                 <div class="avatar"><span>OO</span></div>
                 <div>
-                    <h3 class="mb-0">Prof. Obiekwe Okoye</h3><span class="modal-role">Ophthalmologist &amp;
-                        Educator</span>
+                    <h3 class="mb-0">Sir Chinedu Nwonu</h3><span class="modal-role"></span>
                 </div>
             </div>
             <div class="modal-body">
-                <p>Professor Obiekwe Okoye is a renowned ophthalmologist, researcher and educator whose impact on eye
-                    care and medical education in Nigeria is profound. He is a Professor of Ophthalmology at the
-                    University of Nigeria, Enugu Campus, and an Honorary Consultant at the University of Nigeria
-                    Teaching Hospital (UNTH).</p>
-                <p>Born in 1971, he earned his MBBS from Nnamdi Azikiwe University in 1996 and completed his
-                    ophthalmology fellowships through the National Postgraduate Medical College of Nigeria between 2003
-                    and 2007.</p>
-                <h4>Community impact</h4>
-                <p>He has led outreach programmes delivering free eye care, cataract surgeries and preventive screenings
-                    across Anambra, Enugu and Abia States, and coordinates the WACS/OSN SESS Annual Neuro-Ophthalmology
-                    Course for young ophthalmologists.</p>
-                <h4>Recognition</h4>
-                <ul>
-                    <li>Award of Excellence, Christian Medical and Dental Association of Nigeria</li>
-                    <li>Excellent Leadership Award, Full Gospel Businessmen Fellowship, Enugu</li>
-                    <li>Diamond ICON Award, Diamond Flavour</li>
-                </ul>
+                <p>Chinedu is a multidisciplinary professional with expertise spanning management consulting, banking,
+                    human resource management, sales & marketing and enterprise management.
+                    He operates at the intersection of structure, strategy and disciplined execution with a strong focus
+                    on driving positive, measurable and sustainable outcomes in organizations.
+                    With a career rooted in capacity building, he specializes in designing and strengthening performance
+                    management frameworks that enhance accountability and purposeful decision-making.</p>
+                <p>Sir Chinedu Nwonu is the Principal Partner at SF Metrics & Analytics; an integrated consulting firm
+                    focused on Human Resource Management and Business Structuring.
+                    With their subsidiaries, Sales Force Consulting and Jobsfast Nigeria, they work with clients to
+                    develop and implement cutting-edge operational frameworks to align their procedures for sustainable
+                    growth.</p>
+
+                <p>Chinedu has over 33 years of combined practical experience in professional sales and marketing,
+                    banking, corporate trainings and SMEs consulting.
+                    His exciting career cuts across two years in a finance company; six in FMCG in CAP PLC and UAC;
+                    thirteen years in the banking industry working through Prudent Bank, Broad Bank, Union Bank and
+                    Access Bank and over twelve years in business and management consulting.
+                    He has attended as well as facilitated several senior management programs on enterprise management,
+                    human resource management, risk management, organizational efficiency, leadership, professional
+                    selling, business sustainability, etc.</p>
+                <p>Beyond technical expertise, Chinedu is a strong advocate for disciplined execution, leadership
+                    development and performance clarity. He is passionate about building people and systems for
+                    scalability and sustainability. He sits on the board and also works in advisory capacity for many
+                    companies, business organizations and trade groups.</p>
+                <p>
+                    He is a Certified Professional in Enterprise Management, a Policy Advisor and Historian, a Doctoral
+                    Fellow of Chartered Institute of Human Resource Management, a Chartered HR Consultant and an
+                    Associate of Chartered Institute of Personnel Management (CIPM), amongst others. He is a graduate of
+                    Universities of Benin and Imo State University with degrees in Business Management, Economic History
+                    major, Masters Degree in Business Administration (MBA) majoring in Marketing, etc</p>
+                <p>
+                    Chinedu is a Knight of St. Christopher in the Diocese on the Niger, a Chartered member of Rotary
+                    Club of Nibo, District 9142, and many other positions</p>
+                <p>
+                    His hobbies include travelling, reading, research, training and all sports.</p>
+
             </div>
-        </div> --}}
+        </div>
 
         <div id="sp-ifeoma">
             <div class="modal-head">
