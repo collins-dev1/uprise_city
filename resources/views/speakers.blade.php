@@ -145,9 +145,9 @@
                         <img src="{{ asset('uprise-city/eventspeaker_img/speaker4.jpeg') }}" alt="">
                     </div>
                     <div class="person-body">
-                        <h3>Pastor Sam Obiorah</h3>
-                        <span class="person-role">Academic</span>
-                        <p>Career academic with extensive industrial and entrepreneurial research experience.</p>
+                        <h3>Pastor Samuel Obiorah</h3>
+                        <span class="person-role">Lead Pastor, Life of Faith Global</span>
+                        <p>He is the Lead Pastor of Life of Faith Global.</p>
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
@@ -158,9 +158,8 @@
                     </div>
                     <div class="person-body">
                         <h3>Hon Ifeoma Mimi Azikiwe</h3>
-                        <span class="person-role">Clergy</span>
-                        <p>Vicar and radio/tele-evangelist recognised for impactful ministry across the Diocese on the
-                            Niger.</p>
+                        <span class="person-role">Member representing Onitsha North 1</span>
+                        <p>She is a member representing Onitsha North 1</p>
                         <span class="read-more">Read full profile</span>
                     </div>
                 </div>
